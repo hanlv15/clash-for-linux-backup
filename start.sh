@@ -184,30 +184,71 @@ echo -e "Secret: ${Secret}"
 echo ''
 
 # 添加环境变量(root权限)
-cat>/etc/profile.d/clash.sh<<EOF
-# 开启系统代理
-function proxy_on() {
-	export http_proxy=http://127.0.0.1:7890
-	export https_proxy=http://127.0.0.1:7890
-	export no_proxy=127.0.0.1,localhost
-    	export HTTP_PROXY=http://127.0.0.1:7890
-    	export HTTPS_PROXY=http://127.0.0.1:7890
- 	export NO_PROXY=127.0.0.1,localhost
-	echo -e "\033[32m[√] 已开启代理\033[0m"
+cat>/etc/profile.d/proxy.sh<<EOF
+#!/bin/bash
+
+hostip="127.0.0.1"
+port=7890
+
+PROXY_HTTP="http://\${hostip}:\${port}"
+ 
+set_proxy(){
+  export http_proxy="\${PROXY_HTTP}"
+  export HTTP_PROXY="\${PROXY_HTTP}"
+ 
+  export https_proxy="\${PROXY_HTTP}"
+  export HTTPS_proxy="\${PROXY_HTTP}"
+ 
+  export ALL_PROXY="\${PROXY_SOCKS5}"
+  export all_proxy="\${PROXY_SOCKS5}"
+ 
+  git config --global http.https://github.com.proxy \${PROXY_HTTP}
+  git config --global https.https://github.com.proxy \${PROXY_HTTP}
+ 
+  echo -e "\033[32m√  Proxy has been opened.\033[0m"
 }
 
-# 关闭系统代理
-function proxy_off(){
-	unset http_proxy
-	unset https_proxy
-	unset no_proxy
-  	unset HTTP_PROXY
-	unset HTTPS_PROXY
-	unset NO_PROXY
-	echo -e "\033[31m[×] 已关闭代理\033[0m"
+unset_proxy(){
+  unset http_proxy
+  unset HTTP_PROXY
+  unset https_proxy
+  unset HTTPS_PROXY
+  unset ALL_PROXY
+  unset all_proxy
+  git config --global --unset http.https://github.com.proxy
+  git config --global --unset https.https://github.com.proxy
+
+  echo -e "\033[31m×  Proxy has been closed.\033[0m"
 }
+
+test_setting(){
+  echo "Host IP:" \${hostip}
+  echo "Try to connect to Google..."
+  resp=\$(curl -I -s --connect-timeout 5 -m 5 -w "%{http_code}" -o /dev/null www.google.com)
+  if [ \${resp} = 200 ]; then
+    echo -e "\033[32mProxy setup succeeded!\033[0m"
+  else
+    echo -e "\033[31mProxy setup failed!\033[0m"
+  fi
+}
+
+if [ "\$1" = "on" ]
+then
+  set_proxy
+
+elif [ "\$1" = "off" ]
+then
+  unset_proxy
+
+elif [ "\$1" = "test" ]
+then
+  test_setting
+else
+  echo -e "\033[31mUnsupported arguments. Please use on/off/test.\033[0m"
+fi
+
 EOF
 
-echo -e "请执行以下命令加载环境变量: source /etc/profile.d/clash.sh\n"
-echo -e "请执行以下命令开启系统代理: proxy_on\n"
-echo -e "若要临时关闭系统代理，请执行: proxy_off\n"
+echo -e "开启代理: source /etc/profile.d/proxy.sh on"
+echo -e "关闭代理: source /etc/profile.d/proxy.sh off"
+echo -e "测试代理: source /etc/profile.d/proxy.sh test"
