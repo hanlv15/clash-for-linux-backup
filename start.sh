@@ -93,12 +93,11 @@ unset HTTP_PROXY
 unset HTTPS_PROXY
 unset NO_PROXY
 
-
 ## Clash 订阅地址检测及配置文件下载
 # 检查url是否有效
 echo -e '\n正在检测订阅地址...'
 Text1="Clash订阅地址可访问！"
-Text2="Clash订阅地址不可访问！"
+Text2="Clash订阅地址不可访问！?"
 #curl -o /dev/null -s -m 10 --connect-timeout 10 -w %{http_code} $URL | grep '[23][0-9][0-9]' &>/dev/null
 curl -o /dev/null -L -k -sS --retry 5 -m 10 --connect-timeout 10 -w "%{http_code}" $URL | grep -E '^[23][0-9]{2}$' &>/dev/null
 ReturnStatus=$?
@@ -140,6 +139,14 @@ fi
 
 
 ## Clash 配置文件重新格式化及配置
+# 先关闭 clash 服务
+PID_NUM=`ps -ef | grep [c]lash-linux-a | wc -l`
+PID=`ps -ef | grep [c]lash-linux-a | awk '{print $2}'`
+if [ $PID_NUM -ne 0 ]; then
+	kill -9 $PID
+	# ps -ef | grep [c]lash-linux-a | awk '{print $2}' | xargs kill -9
+fi
+
 # 取出代理相关配置 
 #sed -n '/^proxies:/,$p' $Temp_Dir/clash.yaml > $Temp_Dir/proxy.txt
 sed -n '/^proxies:/,$p' $Temp_Dir/clash_config.yaml > $Temp_Dir/proxy.txt
@@ -184,6 +191,10 @@ echo -e "Secret: ${Secret}"
 echo ''
 
 # 添加环境变量(root权限)
+#   export ALL_PROXY="\${PROXY_SOCKS5}"
+#   export all_proxy="\${PROXY_SOCKS5}"
+#   unset ALL_PROXY
+#   unset all_proxy
 cat>/etc/profile.d/proxy.sh<<EOF
 #!/bin/bash
 
@@ -191,34 +202,30 @@ hostip="127.0.0.1"
 port=7890
 
 PROXY_HTTP="http://\${hostip}:\${port}"
- 
+
 set_proxy(){
-  export http_proxy="\${PROXY_HTTP}"
-  export HTTP_PROXY="\${PROXY_HTTP}"
+  	export http_proxy="\${PROXY_HTTP}"
+  	export HTTP_PROXY="\${PROXY_HTTP}"
  
-  export https_proxy="\${PROXY_HTTP}"
-  export HTTPS_proxy="\${PROXY_HTTP}"
+  	export https_proxy="\${PROXY_HTTP}"
+  	export HTTPS_PROXY="\${PROXY_HTTP}"
  
-  export ALL_PROXY="\${PROXY_SOCKS5}"
-  export all_proxy="\${PROXY_SOCKS5}"
- 
-  git config --global http.https://github.com.proxy \${PROXY_HTTP}
-  git config --global https.https://github.com.proxy \${PROXY_HTTP}
- 
-  echo -e "\033[32m√  Proxy has been opened.\033[0m"
+  	git config --global http.https://github.com.proxy \${PROXY_HTTP}
+  	git config --global https.https://github.com.proxy \${PROXY_HTTP}
+
+  	echo -e "\033[32m√  Proxy has been opened.\033[0m"
 }
 
 unset_proxy(){
-  unset http_proxy
-  unset HTTP_PROXY
-  unset https_proxy
-  unset HTTPS_PROXY
-  unset ALL_PROXY
-  unset all_proxy
-  git config --global --unset http.https://github.com.proxy
-  git config --global --unset https.https://github.com.proxy
+	unset http_proxy
+	unset HTTP_PROXY
+	unset https_proxy
+	unset HTTPS_PROXY
 
-  echo -e "\033[31m×  Proxy has been closed.\033[0m"
+	git config --global --unset http.https://github.com.proxy
+	git config --global --unset https.https://github.com.proxy
+
+	echo -e "\033[31m×  Proxy has been closed.\033[0m"
 }
 
 test_setting(){

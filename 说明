@@ -1,0 +1,6 @@
+用代理更新订阅
+
+先用 bajie 的链接， 运行 start.sh，并开启代理（proxy on）
+然后 注释掉 start.sh 里的 “临时取消环境变量”，
+用 Selom Network的链接， 运行 start.sh
+取消注释：“临时取消环境变量”
