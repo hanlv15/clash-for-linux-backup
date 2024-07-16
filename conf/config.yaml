@@ -27,7 +27,8 @@ secret: A835UbMWnkN2Drf
 external-ui: /home/hanlv/workspace/repo/clash-for-linux-backup/dashboard/public
 
 proxies:
-  - {name: 新疆地区用户专用节点, server: opt3.selom.xyz, port: 17236, type: trojan, password: d8fc629b-3f06-4d71-beca-af41be755f22, sni: apple.com, skip-cert-verify: true, udp: true}
+  - {name: 距离下次重置剩余：29 天, server: aa6sup5ntuf0m9anll.bbdong.xyz, port: 35667, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
+  - {name: 新疆地区用户专用节点, server: enosdc2.bbdong.xyz, port: 17236, type: trojan, password: d8fc629b-3f06-4d71-beca-af41be755f22, sni: apple.com, skip-cert-verify: true, udp: true}
   - {name: 香港低倍率 0.6x, server: z96h0cwvp1pywk7t.bbdong.xyz, port: 10319, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
   - {name: 新加坡低倍率 0.6x, server: z96h0cwvp1pywk7t.bbdong.xyz, port: 10321, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
   - {name: 日本低倍率 0.6x, server: z96h0cwvp1pywk7t.bbdong.xyz, port: 10323, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
@@ -60,6 +61,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 距离下次重置剩余：29 天
       - 新疆地区用户专用节点
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
@@ -92,6 +94,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 距离下次重置剩余：29 天
       - 新疆地区用户专用节点
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
@@ -125,6 +128,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 距离下次重置剩余：29 天
       - 新疆地区用户专用节点
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
@@ -170,6 +174,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 距离下次重置剩余：29 天
       - 新疆地区用户专用节点
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
@@ -217,6 +222,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 距离下次重置剩余：29 天
       - 新疆地区用户专用节点
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
@@ -249,6 +255,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 距离下次重置剩余：29 天
       - 新疆地区用户专用节点
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
@@ -282,6 +289,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 距离下次重置剩余：29 天
       - 新疆地区用户专用节点
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
@@ -324,6 +332,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 距离下次重置剩余：29 天
       - 新疆地区用户专用节点
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
