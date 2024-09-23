@@ -27,8 +27,9 @@ secret: A835UbMWnkN2Drf
 external-ui: /home/hanlv/workspace/repo/clash-for-linux-backup/dashboard/public
 
 proxies:
-  - {name: 距离下次重置剩余：29 天, server: aa6sup5ntuf0m9anll.bbdong.xyz, port: 35667, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
-  - {name: 新疆地区用户专用节点, server: enosdc2.bbdong.xyz, port: 17236, type: trojan, password: d8fc629b-3f06-4d71-beca-af41be755f22, sni: apple.com, skip-cert-verify: true, udp: true}
+  - {name: 距离下次重置剩余：23 天, server: aa6sup5ntuf0m9anll.bbdong.xyz, port: 44013, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
+  - {name: 香港DC 01 CM/CU 0.5x, server: enosdc2.bbdong.xyz, port: 17236, type: trojan, password: d8fc629b-3f06-4d71-beca-af41be755f22, sni: apple.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 DC 02 CM/CU 0.5x, server: troneabcdd.bbdong.xyz, port: 15610, type: trojan, password: d8fc629b-3f06-4d71-beca-af41be755f22, sni: apple.com, skip-cert-verify: true, udp: true}
   - {name: 香港低倍率 0.6x, server: z96h0cwvp1pywk7t.bbdong.xyz, port: 10319, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
   - {name: 新加坡低倍率 0.6x, server: z96h0cwvp1pywk7t.bbdong.xyz, port: 10321, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
   - {name: 日本低倍率 0.6x, server: z96h0cwvp1pywk7t.bbdong.xyz, port: 10323, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
@@ -52,17 +53,17 @@ proxies:
   - {name: 美国01, server: py6rpol78lskvvik.bbdong.xyz, port: 38136, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
   - {name: 美国02, server: py6rpol78lskvvik.bbdong.xyz, port: 32083, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
   - {name: 美国03, server: py6rpol78lskvvik.bbdong.xyz, port: 24111, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
-  - {name: 香港DC CM/CU 0.8x, server: enosdc.bbdong.xyz, port: 35566, type: trojan, password: d8fc629b-3f06-4d71-beca-af41be755f22, sni: apple.com, skip-cert-verify: true, udp: true}
-  - {name: HK IEPL 01x4x, server: Adf3uFWQvqPg.bbdong.xyz, port: 51354, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
-  - {name: HK IEPL 02x4x, server: BzzXZLkRUFn5.bbdong.xyz, port: 51664, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
+  - {name: 防失联节点 01, server: bbdatnosdc1.bbdong.xyz, port: 25664, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
+  - {name: 防失联节点 02, server: bbdatnosdc2.bbdong.xyz, port: 25665, type: ss, cipher: aes-128-gcm, password: d8fc629b-3f06-4d71-beca-af41be755f22, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：29 天
-      - 新疆地区用户专用节点
+      - 距离下次重置剩余：23 天
+      - 香港DC 01 CM/CU 0.5x
+      - 香港 DC 02 CM/CU 0.5x
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
       - 日本低倍率 0.6x
@@ -86,16 +87,16 @@ proxy-groups:
       - 美国01
       - 美国02
       - 美国03
-      - 香港DC CM/CU 0.8x
-      - HK IEPL 01x4x
-      - HK IEPL 02x4x
+      - 防失联节点 01
+      - 防失联节点 02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 距离下次重置剩余：29 天
-      - 新疆地区用户专用节点
+      - 距离下次重置剩余：23 天
+      - 香港DC 01 CM/CU 0.5x
+      - 香港 DC 02 CM/CU 0.5x
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
       - 日本低倍率 0.6x
@@ -119,17 +120,17 @@ proxy-groups:
       - 美国01
       - 美国02
       - 美国03
-      - 香港DC CM/CU 0.8x
-      - HK IEPL 01x4x
-      - HK IEPL 02x4x
+      - 防失联节点 01
+      - 防失联节点 02
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：29 天
-      - 新疆地区用户专用节点
+      - 距离下次重置剩余：23 天
+      - 香港DC 01 CM/CU 0.5x
+      - 香港 DC 02 CM/CU 0.5x
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
       - 日本低倍率 0.6x
@@ -153,9 +154,8 @@ proxy-groups:
       - 美国01
       - 美国02
       - 美国03
-      - 香港DC CM/CU 0.8x
-      - HK IEPL 01x4x
-      - HK IEPL 02x4x
+      - 防失联节点 01
+      - 防失联节点 02
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -174,8 +174,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 距离下次重置剩余：29 天
-      - 新疆地区用户专用节点
+      - 距离下次重置剩余：23 天
+      - 香港DC 01 CM/CU 0.5x
+      - 香港 DC 02 CM/CU 0.5x
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
       - 日本低倍率 0.6x
@@ -199,13 +200,14 @@ proxy-groups:
       - 美国01
       - 美国02
       - 美国03
-      - 香港DC CM/CU 0.8x
-      - HK IEPL 01x4x
-      - HK IEPL 02x4x
+      - 防失联节点 01
+      - 防失联节点 02
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港DC 01 CM/CU 0.5x
+      - 香港 DC 02 CM/CU 0.5x
       - 香港低倍率 0.6x
       - 香港01
       - 香港02
@@ -215,15 +217,15 @@ proxy-groups:
       - 香港06
       - 台湾01
       - 台湾02
-      - 香港DC CM/CU 0.8x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 距离下次重置剩余：29 天
-      - 新疆地区用户专用节点
+      - 距离下次重置剩余：23 天
+      - 香港DC 01 CM/CU 0.5x
+      - 香港 DC 02 CM/CU 0.5x
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
       - 日本低倍率 0.6x
@@ -247,16 +249,16 @@ proxy-groups:
       - 美国01
       - 美国02
       - 美国03
-      - 香港DC CM/CU 0.8x
-      - HK IEPL 01x4x
-      - HK IEPL 02x4x
+      - 防失联节点 01
+      - 防失联节点 02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 距离下次重置剩余：29 天
-      - 新疆地区用户专用节点
+      - 距离下次重置剩余：23 天
+      - 香港DC 01 CM/CU 0.5x
+      - 香港 DC 02 CM/CU 0.5x
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
       - 日本低倍率 0.6x
@@ -280,17 +282,17 @@ proxy-groups:
       - 美国01
       - 美国02
       - 美国03
-      - 香港DC CM/CU 0.8x
-      - HK IEPL 01x4x
-      - HK IEPL 02x4x
+      - 防失联节点 01
+      - 防失联节点 02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 距离下次重置剩余：29 天
-      - 新疆地区用户专用节点
+      - 距离下次重置剩余：23 天
+      - 香港DC 01 CM/CU 0.5x
+      - 香港 DC 02 CM/CU 0.5x
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
       - 日本低倍率 0.6x
@@ -314,9 +316,8 @@ proxy-groups:
       - 美国01
       - 美国02
       - 美国03
-      - 香港DC CM/CU 0.8x
-      - HK IEPL 01x4x
-      - HK IEPL 02x4x
+      - 防失联节点 01
+      - 防失联节点 02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -332,8 +333,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 距离下次重置剩余：29 天
-      - 新疆地区用户专用节点
+      - 距离下次重置剩余：23 天
+      - 香港DC 01 CM/CU 0.5x
+      - 香港 DC 02 CM/CU 0.5x
       - 香港低倍率 0.6x
       - 新加坡低倍率 0.6x
       - 日本低倍率 0.6x
@@ -357,9 +359,8 @@ proxy-groups:
       - 美国01
       - 美国02
       - 美国03
-      - 香港DC CM/CU 0.8x
-      - HK IEPL 01x4x
-      - HK IEPL 02x4x
+      - 防失联节点 01
+      - 防失联节点 02
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
