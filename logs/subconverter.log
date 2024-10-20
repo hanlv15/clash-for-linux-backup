@@ -6247,3 +6247,989 @@
 2024/09/23 Mon 11:41:34.251374 [19012 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
 
 2024/09/23 Mon 11:41:34.251408 [19012 10739128][INFO] All artifact generated. Exiting...
+2024/10/15 Tue 17:40:33.165688 [1407197 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/15 Tue 17:40:33.166942 [1407197 10739128][INFO] Reading preference settings...
+2024/10/15 Tue 17:40:33.187993 [1407197 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/15 Tue 17:40:33.188428 [1407197 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/15 Tue 17:40:33.189101 [1407197 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/15 Tue 17:40:33.189512 [1407197 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/15 Tue 17:40:33.190378 [1407197 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/15 Tue 17:40:33.190607 [1407197 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/15 Tue 17:40:33.191229 [1407197 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/15 Tue 17:40:33.191966 [1407197 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/15 Tue 17:40:33.192344 [1407197 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/15 Tue 17:40:33.192902 [1407197 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/15 Tue 17:40:33.193271 [1407197 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/15 Tue 17:40:33.193763 [1407197 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/15 Tue 17:40:33.194400 [1407197 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/15 Tue 17:40:33.195012 [1407197 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/15 Tue 17:40:33.195088 [1407197 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/15 Tue 17:40:33.195786 [1407197 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/15 Tue 17:40:33.196204 [1407197 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/15 Tue 17:40:33.196846 [1407197 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/15 Tue 17:40:33.197207 [1407197 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/15 Tue 17:40:33.197260 [1407197 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/15 Tue 17:40:33.197322 [1407197 10739128][INFO] Reading generator configuration...
+2024/10/15 Tue 17:40:33.197535 [1407197 10739128][INFO] Read generator configuration completed.
+
+2024/10/15 Tue 17:40:33.197560 [1407197 10739128][INFO] Generating all artifacts...
+2024/10/15 Tue 17:40:33.197581 [1407197 10739128][INFO] Generating artifact 'test'...
+2024/10/15 Tue 17:40:33.197657 [1407197 10739128][VERB] Imported 0 item(s).
+2024/10/15 Tue 17:40:33.198291 [1407197 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/15 Tue 17:40:33.200773 [1407197 10739128][VERB] Received Link.
+2024/10/15 Tue 17:40:33.200819 [1407197 10739128][VERB] Parsing configuration file data...
+2024/10/15 Tue 17:40:33.202765 [1407197 10739128][VERB] Node  SSProvider - 剩余流量：71.67 GB  has been ignored and will not be added.
+2024/10/15 Tue 17:40:33.202809 [1407197 10739128][VERB] Node  SSProvider - 距离下次重置剩余：1 天  has been added.
+2024/10/15 Tue 17:40:33.202833 [1407197 10739128][VERB] Node  SSProvider - 套餐到期：2024-10-16  has been ignored and will not be added.
+2024/10/15 Tue 17:40:33.202867 [1407197 10739128][VERB] Node  SSProvider - 定期更新订阅|官网 https://panel.selom.xyz/  has been ignored and will not be added.
+2024/10/15 Tue 17:40:33.202892 [1407197 10739128][VERB] Node  TrojanProvider - 香港DC 01 CM/CU 0.5x  has been added.
+2024/10/15 Tue 17:40:33.202915 [1407197 10739128][VERB] Node  TrojanProvider - 香港 DC 02 CM/CU 0.5x  has been added.
+2024/10/15 Tue 17:40:33.202937 [1407197 10739128][VERB] Node  SSProvider - 香港低倍率 0.6x  has been added.
+2024/10/15 Tue 17:40:33.202959 [1407197 10739128][VERB] Node  SSProvider - 新加坡低倍率 0.6x  has been added.
+2024/10/15 Tue 17:40:33.202982 [1407197 10739128][VERB] Node  SSProvider - 日本低倍率 0.6x  has been added.
+2024/10/15 Tue 17:40:33.203004 [1407197 10739128][VERB] Node  SSProvider - 美国低倍率 0.6x  has been added.
+2024/10/15 Tue 17:40:33.203026 [1407197 10739128][VERB] Node  SSProvider - 香港01  has been added.
+2024/10/15 Tue 17:40:33.203047 [1407197 10739128][VERB] Node  SSProvider - 香港02  has been added.
+2024/10/15 Tue 17:40:33.203072 [1407197 10739128][VERB] Node  SSProvider - 香港03  has been added.
+2024/10/15 Tue 17:40:33.203093 [1407197 10739128][VERB] Node  SSProvider - 香港04  has been added.
+2024/10/15 Tue 17:40:33.203114 [1407197 10739128][VERB] Node  SSProvider - 香港05  has been added.
+2024/10/15 Tue 17:40:33.203136 [1407197 10739128][VERB] Node  SSProvider - 香港06  has been added.
+2024/10/15 Tue 17:40:33.203158 [1407197 10739128][VERB] Node  SSProvider - 台湾01  has been added.
+2024/10/15 Tue 17:40:33.203179 [1407197 10739128][VERB] Node  SSProvider - 台湾02  has been added.
+2024/10/15 Tue 17:40:33.203202 [1407197 10739128][VERB] Node  SSProvider - 日本01  has been added.
+2024/10/15 Tue 17:40:33.203223 [1407197 10739128][VERB] Node  SSProvider - 日本02  has been added.
+2024/10/15 Tue 17:40:33.203245 [1407197 10739128][VERB] Node  SSProvider - 日本03  has been added.
+2024/10/15 Tue 17:40:33.203267 [1407197 10739128][VERB] Node  SSProvider - 日本04  has been added.
+2024/10/15 Tue 17:40:33.203289 [1407197 10739128][VERB] Node  SSProvider - 新加坡01  has been added.
+2024/10/15 Tue 17:40:33.203310 [1407197 10739128][VERB] Node  SSProvider - 新加坡02  has been added.
+2024/10/15 Tue 17:40:33.203333 [1407197 10739128][VERB] Node  SSProvider - 新加坡03  has been added.
+2024/10/15 Tue 17:40:33.203355 [1407197 10739128][VERB] Node  SSProvider - 新加坡04  has been added.
+2024/10/15 Tue 17:40:33.203376 [1407197 10739128][VERB] Node  SSProvider - 美国01  has been added.
+2024/10/15 Tue 17:40:33.203398 [1407197 10739128][VERB] Node  SSProvider - 美国02  has been added.
+2024/10/15 Tue 17:40:33.203419 [1407197 10739128][VERB] Node  SSProvider - 美国03  has been added.
+2024/10/15 Tue 17:40:33.203445 [1407197 10739128][VERB] Node  SSProvider - 防失联节点 01  has been added.
+2024/10/15 Tue 17:40:33.203466 [1407197 10739128][VERB] Node  SSProvider - 防失联节点 02  has been added.
+2024/10/15 Tue 17:40:33.203483 [1407197 10739128][VERB] Filter done.
+2024/10/15 Tue 17:40:33.203935 [1407197 10739128][INFO] Generate target: Clash
+2024/10/15 Tue 17:40:33.221655 [1407197 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/15 Tue 17:40:33.222960 [1407197 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/15 Tue 17:40:33.228085 [1407197 10739128][INFO] Generate completed.
+2024/10/15 Tue 17:40:33.228689 [1407197 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/15 Tue 17:40:33.228720 [1407197 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/15 Tue 17:40:33.228741 [1407197 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/15 Tue 17:40:33.228897 [1407197 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/15 Tue 17:40:33.228929 [1407197 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/15 Tue 17:40:33.229035 [1407197 10739128][VERB] Imported 0 item(s).
+2024/10/15 Tue 17:40:33.229077 [1407197 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/15 Tue 17:40:33.230430 [1407197 10739128][VERB] Received Link.
+2024/10/15 Tue 17:40:33.230548 [1407197 10739128][INFO] Generate target: Clash
+2024/10/15 Tue 17:40:33.246310 [1407197 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/15 Tue 17:40:33.247611 [1407197 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/15 Tue 17:40:33.249978 [1407197 10739128][INFO] Generate completed.
+2024/10/15 Tue 17:40:33.250493 [1407197 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/15 Tue 17:40:33.250544 [1407197 10739128][INFO] All artifact generated. Exiting...
+2024/10/18 Fri 17:39:56.608718 [2019652 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/18 Fri 17:39:56.609481 [2019652 10739128][INFO] Reading preference settings...
+2024/10/18 Fri 17:39:56.630988 [2019652 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/18 Fri 17:39:56.631138 [2019652 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/18 Fri 17:39:56.631255 [2019652 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/18 Fri 17:39:56.631441 [2019652 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/18 Fri 17:39:56.632156 [2019652 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/18 Fri 17:39:56.632258 [2019652 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/18 Fri 17:39:56.632354 [2019652 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/18 Fri 17:39:56.632555 [2019652 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:39:56.632663 [2019652 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:39:56.632794 [2019652 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:39:56.633032 [2019652 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:39:56.633127 [2019652 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:39:56.633364 [2019652 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:39:56.633628 [2019652 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/18 Fri 17:39:56.633689 [2019652 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/18 Fri 17:39:56.633843 [2019652 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/18 Fri 17:39:56.633935 [2019652 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/18 Fri 17:39:56.634038 [2019652 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/18 Fri 17:39:56.634114 [2019652 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/18 Fri 17:39:56.634173 [2019652 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/18 Fri 17:39:56.634231 [2019652 10739128][INFO] Reading generator configuration...
+2024/10/18 Fri 17:39:56.634283 [2019652 10739128][INFO] Read generator configuration completed.
+
+2024/10/18 Fri 17:39:56.634302 [2019652 10739128][INFO] Generating all artifacts...
+2024/10/18 Fri 17:39:56.634320 [2019652 10739128][INFO] Generating artifact 'test'...
+2024/10/18 Fri 17:39:56.634389 [2019652 10739128][VERB] Imported 0 item(s).
+2024/10/18 Fri 17:39:56.634453 [2019652 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/18 Fri 17:39:56.635942 [2019652 10739128][VERB] Received Link.
+2024/10/18 Fri 17:39:56.635976 [2019652 10739128][VERB] Parsing configuration file data...
+2024/10/18 Fri 17:39:56.638723 [2019652 10739128][VERB] Node  V2RayProvider - 剩余流量：50.61 GB  has been ignored and will not be added.
+2024/10/18 Fri 17:39:56.638770 [2019652 10739128][VERB] Node  V2RayProvider - 套餐到期：长期有效  has been ignored and will not be added.
+2024/10/18 Fri 17:39:56.638802 [2019652 10739128][VERB] Node  V2RayProvider - 过滤掉3条线路  has been added.
+2024/10/18 Fri 17:39:56.638825 [2019652 10739128][VERB] Node  V2RayProvider - 日本-优化  has been added.
+2024/10/18 Fri 17:39:56.638847 [2019652 10739128][VERB] Node  V2RayProvider - 日本-优化2  has been added.
+2024/10/18 Fri 17:39:56.638869 [2019652 10739128][VERB] Node  V2RayProvider - 日本-优化3  has been added.
+2024/10/18 Fri 17:39:56.638890 [2019652 10739128][VERB] Node  TrojanProvider - 日本JP-T  has been added.
+2024/10/18 Fri 17:39:56.638912 [2019652 10739128][VERB] Node  TrojanProvider - 新加坡SG-T  has been added.
+2024/10/18 Fri 17:39:56.638935 [2019652 10739128][VERB] Node  TrojanProvider - 柬埔寨KH-T  has been added.
+2024/10/18 Fri 17:39:56.638956 [2019652 10739128][VERB] Node  TrojanProvider - 美国USLA-T-GPT  has been added.
+2024/10/18 Fri 17:39:56.638979 [2019652 10739128][VERB] Node  V2RayProvider - 新加坡-优化  has been added.
+2024/10/18 Fri 17:39:56.639001 [2019652 10739128][VERB] Node  V2RayProvider - 新加坡-优化2  has been added.
+2024/10/18 Fri 17:39:56.639025 [2019652 10739128][VERB] Node  V2RayProvider - 新加坡-优化3  has been added.
+2024/10/18 Fri 17:39:56.639046 [2019652 10739128][VERB] Node  TrojanProvider - 香港wap-T  has been added.
+2024/10/18 Fri 17:39:56.639068 [2019652 10739128][VERB] Node  TrojanProvider - 台湾WAP-T-GPT  has been added.
+2024/10/18 Fri 17:39:56.639089 [2019652 10739128][VERB] Node  TrojanProvider - 越南VN-T  has been added.
+2024/10/18 Fri 17:39:56.639112 [2019652 10739128][VERB] Node  V2RayProvider - 马来西亚-优化  has been added.
+2024/10/18 Fri 17:39:56.639134 [2019652 10739128][VERB] Node  V2RayProvider - 马来西亚-优化2  has been added.
+2024/10/18 Fri 17:39:56.639157 [2019652 10739128][VERB] Node  V2RayProvider - 马来西亚-优化3  has been added.
+2024/10/18 Fri 17:39:56.639179 [2019652 10739128][VERB] Node  V2RayProvider - 香港WAP-优化  has been added.
+2024/10/18 Fri 17:39:56.639201 [2019652 10739128][VERB] Node  V2RayProvider - 香港WAP-优化2  has been added.
+2024/10/18 Fri 17:39:56.639223 [2019652 10739128][VERB] Node  V2RayProvider - 印度-优化  has been added.
+2024/10/18 Fri 17:39:56.639245 [2019652 10739128][VERB] Node  V2RayProvider - 台湾-优化  has been added.
+2024/10/18 Fri 17:39:56.639267 [2019652 10739128][VERB] Node  V2RayProvider - 台湾-优化2  has been added.
+2024/10/18 Fri 17:39:56.639289 [2019652 10739128][VERB] Node  V2RayProvider - 台湾-优化3  has been added.
+2024/10/18 Fri 17:39:56.639311 [2019652 10739128][VERB] Node  V2RayProvider - 美国LA-优化-GPT  has been added.
+2024/10/18 Fri 17:39:56.639333 [2019652 10739128][VERB] Node  V2RayProvider - 美国LA-优化2-GPT  has been added.
+2024/10/18 Fri 17:39:56.639355 [2019652 10739128][VERB] Node  V2RayProvider - 美国LA-优化3-GPT  has been added.
+2024/10/18 Fri 17:39:56.639378 [2019652 10739128][VERB] Node  V2RayProvider - 德国-优化  has been added.
+2024/10/18 Fri 17:39:56.639406 [2019652 10739128][VERB] Node  V2RayProvider - 德国-优化2  has been added.
+2024/10/18 Fri 17:39:56.639428 [2019652 10739128][VERB] Node  V2RayProvider - 英国-优化-GPT  has been added.
+2024/10/18 Fri 17:39:56.639450 [2019652 10739128][VERB] Node  V2RayProvider - 英国-优化2  has been added.
+2024/10/18 Fri 17:39:56.639472 [2019652 10739128][VERB] Node  V2RayProvider - 英国-优化3  has been added.
+2024/10/18 Fri 17:39:56.639494 [2019652 10739128][VERB] Node  TrojanProvider - 澳大利亚AU-T  has been added.
+2024/10/18 Fri 17:39:56.639516 [2019652 10739128][VERB] Node  TrojanProvider - 土耳其TR-T  has been added.
+2024/10/18 Fri 17:39:56.639565 [2019652 10739128][VERB] Node  TrojanProvider - 卢森堡LUX-T  has been added.
+2024/10/18 Fri 17:39:56.639587 [2019652 10739128][VERB] Node  TrojanProvider - 朝鲜KP-T  has been added.
+2024/10/18 Fri 17:39:56.639609 [2019652 10739128][VERB] Node  TrojanProvider - 意大利IT-T  has been added.
+2024/10/18 Fri 17:39:56.639630 [2019652 10739128][VERB] Node  TrojanProvider - 葡萄牙PT-T  has been added.
+2024/10/18 Fri 17:39:56.639653 [2019652 10739128][VERB] Node  TrojanProvider - 俄罗斯RU-T  has been added.
+2024/10/18 Fri 17:39:56.639675 [2019652 10739128][VERB] Node  TrojanProvider - 哈萨克斯坦KZ-T  has been added.
+2024/10/18 Fri 17:39:56.639697 [2019652 10739128][VERB] Node  TrojanProvider - 乌克兰UA-T  has been added.
+2024/10/18 Fri 17:39:56.639718 [2019652 10739128][VERB] Node  TrojanProvider - 以色列IL-T  has been added.
+2024/10/18 Fri 17:39:56.639740 [2019652 10739128][VERB] Node  TrojanProvider - 英国UK-T  has been added.
+2024/10/18 Fri 17:39:56.639761 [2019652 10739128][VERB] Node  TrojanProvider - 阿根廷AR-T  has been added.
+2024/10/18 Fri 17:39:56.639784 [2019652 10739128][VERB] Node  TrojanProvider - 尼日利亚NI-T  has been added.
+2024/10/18 Fri 17:39:56.639801 [2019652 10739128][VERB] Filter done.
+2024/10/18 Fri 17:39:56.640380 [2019652 10739128][INFO] Generate target: Clash
+2024/10/18 Fri 17:39:56.659055 [2019652 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/18 Fri 17:39:56.660301 [2019652 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/18 Fri 17:39:56.667682 [2019652 10739128][INFO] Generate completed.
+2024/10/18 Fri 17:39:56.668276 [2019652 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/18 Fri 17:39:56.668301 [2019652 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/18 Fri 17:39:56.668319 [2019652 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/18 Fri 17:39:56.668357 [2019652 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/18 Fri 17:39:56.668384 [2019652 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/18 Fri 17:39:56.668481 [2019652 10739128][VERB] Imported 0 item(s).
+2024/10/18 Fri 17:39:56.668516 [2019652 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/18 Fri 17:39:56.669827 [2019652 10739128][VERB] Received Link.
+2024/10/18 Fri 17:39:56.669920 [2019652 10739128][INFO] Generate target: Clash
+2024/10/18 Fri 17:39:56.685123 [2019652 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/18 Fri 17:39:56.686352 [2019652 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/18 Fri 17:39:56.688666 [2019652 10739128][INFO] Generate completed.
+2024/10/18 Fri 17:39:56.689139 [2019652 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/18 Fri 17:39:56.689167 [2019652 10739128][INFO] All artifact generated. Exiting...
+2024/10/18 Fri 17:40:58.349558 [2020086 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/18 Fri 17:40:58.351151 [2020086 10739128][INFO] Reading preference settings...
+2024/10/18 Fri 17:40:58.370908 [2020086 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/18 Fri 17:40:58.371048 [2020086 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/18 Fri 17:40:58.371255 [2020086 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/18 Fri 17:40:58.371408 [2020086 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/18 Fri 17:40:58.372042 [2020086 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/18 Fri 17:40:58.372102 [2020086 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/18 Fri 17:40:58.372351 [2020086 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/18 Fri 17:40:58.372440 [2020086 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:40:58.372647 [2020086 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:40:58.372725 [2020086 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:40:58.372973 [2020086 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:40:58.373183 [2020086 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:40:58.373392 [2020086 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 17:40:58.373520 [2020086 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/18 Fri 17:40:58.373570 [2020086 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/18 Fri 17:40:58.373752 [2020086 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/18 Fri 17:40:58.373920 [2020086 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/18 Fri 17:40:58.374085 [2020086 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/18 Fri 17:40:58.374349 [2020086 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/18 Fri 17:40:58.374395 [2020086 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/18 Fri 17:40:58.374449 [2020086 10739128][INFO] Reading generator configuration...
+2024/10/18 Fri 17:40:58.374497 [2020086 10739128][INFO] Read generator configuration completed.
+
+2024/10/18 Fri 17:40:58.374515 [2020086 10739128][INFO] Generating all artifacts...
+2024/10/18 Fri 17:40:58.374538 [2020086 10739128][INFO] Generating artifact 'test'...
+2024/10/18 Fri 17:40:58.374605 [2020086 10739128][VERB] Imported 0 item(s).
+2024/10/18 Fri 17:40:58.374665 [2020086 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/18 Fri 17:40:58.376127 [2020086 10739128][VERB] Received Link.
+2024/10/18 Fri 17:40:58.376163 [2020086 10739128][VERB] Parsing configuration file data...
+2024/10/18 Fri 17:40:58.377706 [2020086 10739128][VERB] Node  SSProvider - 剩余流量：120.18 GB  has been ignored and will not be added.
+2024/10/18 Fri 17:40:58.377745 [2020086 10739128][VERB] Node  SSProvider - 套餐到期：2024-11-18  has been ignored and will not be added.
+2024/10/18 Fri 17:40:58.377779 [2020086 10739128][VERB] Node  SSProvider - 定期更新订阅|官网 https://panel.selom.xyz/  has been ignored and will not be added.
+2024/10/18 Fri 17:40:58.377804 [2020086 10739128][VERB] Node  TrojanProvider - 香港DC 01 CM/CU 0.5x  has been added.
+2024/10/18 Fri 17:40:58.377826 [2020086 10739128][VERB] Node  TrojanProvider - 香港 DC 02 CM/CU 0.5x  has been added.
+2024/10/18 Fri 17:40:58.377848 [2020086 10739128][VERB] Node  SSProvider - 香港低倍率 0.6x  has been added.
+2024/10/18 Fri 17:40:58.377871 [2020086 10739128][VERB] Node  SSProvider - 新加坡低倍率 0.6x  has been added.
+2024/10/18 Fri 17:40:58.377893 [2020086 10739128][VERB] Node  SSProvider - 日本低倍率 0.6x  has been added.
+2024/10/18 Fri 17:40:58.377915 [2020086 10739128][VERB] Node  SSProvider - 美国低倍率 0.6x  has been added.
+2024/10/18 Fri 17:40:58.377937 [2020086 10739128][VERB] Node  SSProvider - 香港01  has been added.
+2024/10/18 Fri 17:40:58.377958 [2020086 10739128][VERB] Node  SSProvider - 香港02  has been added.
+2024/10/18 Fri 17:40:58.377980 [2020086 10739128][VERB] Node  SSProvider - 香港03  has been added.
+2024/10/18 Fri 17:40:58.378001 [2020086 10739128][VERB] Node  SSProvider - 香港04  has been added.
+2024/10/18 Fri 17:40:58.378023 [2020086 10739128][VERB] Node  SSProvider - 香港05  has been added.
+2024/10/18 Fri 17:40:58.378044 [2020086 10739128][VERB] Node  SSProvider - 香港06  has been added.
+2024/10/18 Fri 17:40:58.378066 [2020086 10739128][VERB] Node  SSProvider - 台湾01  has been added.
+2024/10/18 Fri 17:40:58.378088 [2020086 10739128][VERB] Node  SSProvider - 台湾02  has been added.
+2024/10/18 Fri 17:40:58.378109 [2020086 10739128][VERB] Node  SSProvider - 日本01  has been added.
+2024/10/18 Fri 17:40:58.378132 [2020086 10739128][VERB] Node  SSProvider - 日本02  has been added.
+2024/10/18 Fri 17:40:58.378154 [2020086 10739128][VERB] Node  SSProvider - 日本03  has been added.
+2024/10/18 Fri 17:40:58.378175 [2020086 10739128][VERB] Node  SSProvider - 日本04  has been added.
+2024/10/18 Fri 17:40:58.378197 [2020086 10739128][VERB] Node  SSProvider - 新加坡01  has been added.
+2024/10/18 Fri 17:40:58.378219 [2020086 10739128][VERB] Node  SSProvider - 新加坡02  has been added.
+2024/10/18 Fri 17:40:58.378241 [2020086 10739128][VERB] Node  SSProvider - 新加坡03  has been added.
+2024/10/18 Fri 17:40:58.378263 [2020086 10739128][VERB] Node  SSProvider - 新加坡04  has been added.
+2024/10/18 Fri 17:40:58.378285 [2020086 10739128][VERB] Node  SSProvider - 美国01  has been added.
+2024/10/18 Fri 17:40:58.378306 [2020086 10739128][VERB] Node  SSProvider - 美国02  has been added.
+2024/10/18 Fri 17:40:58.378327 [2020086 10739128][VERB] Node  SSProvider - 美国03  has been added.
+2024/10/18 Fri 17:40:58.378349 [2020086 10739128][VERB] Node  SSProvider - 防失联节点 01  has been added.
+2024/10/18 Fri 17:40:58.378370 [2020086 10739128][VERB] Node  SSProvider - 防失联节点 02  has been added.
+2024/10/18 Fri 17:40:58.378387 [2020086 10739128][VERB] Filter done.
+2024/10/18 Fri 17:40:58.378819 [2020086 10739128][INFO] Generate target: Clash
+2024/10/18 Fri 17:40:58.395531 [2020086 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/18 Fri 17:40:58.396801 [2020086 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/18 Fri 17:40:58.401458 [2020086 10739128][INFO] Generate completed.
+2024/10/18 Fri 17:40:58.401928 [2020086 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/18 Fri 17:40:58.401962 [2020086 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/18 Fri 17:40:58.401979 [2020086 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/18 Fri 17:40:58.402022 [2020086 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/18 Fri 17:40:58.402054 [2020086 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/18 Fri 17:40:58.402149 [2020086 10739128][VERB] Imported 0 item(s).
+2024/10/18 Fri 17:40:58.402184 [2020086 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/18 Fri 17:40:58.403476 [2020086 10739128][VERB] Received Link.
+2024/10/18 Fri 17:40:58.403567 [2020086 10739128][INFO] Generate target: Clash
+2024/10/18 Fri 17:40:58.418365 [2020086 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/18 Fri 17:40:58.419588 [2020086 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/18 Fri 17:40:58.421874 [2020086 10739128][INFO] Generate completed.
+2024/10/18 Fri 17:40:58.422380 [2020086 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/18 Fri 17:40:58.422409 [2020086 10739128][INFO] All artifact generated. Exiting...
+2024/10/18 Fri 22:38:19.198617 [3935 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/18 Fri 22:38:19.199641 [3935 10739128][INFO] Reading preference settings...
+2024/10/18 Fri 22:38:19.219533 [3935 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/18 Fri 22:38:19.219961 [3935 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/18 Fri 22:38:19.220234 [3935 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/18 Fri 22:38:19.220535 [3935 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/18 Fri 22:38:19.221091 [3935 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/18 Fri 22:38:19.221227 [3935 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/18 Fri 22:38:19.221552 [3935 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/18 Fri 22:38:19.221851 [3935 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:38:19.222159 [3935 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:38:19.222375 [3935 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:38:19.222553 [3935 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:38:19.222810 [3935 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:38:19.223098 [3935 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:38:19.223351 [3935 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/18 Fri 22:38:19.223415 [3935 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/18 Fri 22:38:19.223716 [3935 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/18 Fri 22:38:19.224005 [3935 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/18 Fri 22:38:19.224298 [3935 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/18 Fri 22:38:19.224574 [3935 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/18 Fri 22:38:19.224629 [3935 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/18 Fri 22:38:19.224688 [3935 10739128][INFO] Reading generator configuration...
+2024/10/18 Fri 22:38:19.224747 [3935 10739128][INFO] Read generator configuration completed.
+
+2024/10/18 Fri 22:38:19.224766 [3935 10739128][INFO] Generating all artifacts...
+2024/10/18 Fri 22:38:19.224784 [3935 10739128][INFO] Generating artifact 'test'...
+2024/10/18 Fri 22:38:19.224871 [3935 10739128][VERB] Imported 0 item(s).
+2024/10/18 Fri 22:38:19.224949 [3935 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/18 Fri 22:38:19.226471 [3935 10739128][VERB] Received Link.
+2024/10/18 Fri 22:38:19.226512 [3935 10739128][VERB] Parsing configuration file data...
+2024/10/18 Fri 22:38:19.229341 [3935 10739128][VERB] Node  V2RayProvider - 剩余流量：50.61 GB  has been ignored and will not be added.
+2024/10/18 Fri 22:38:19.229393 [3935 10739128][VERB] Node  V2RayProvider - 套餐到期：长期有效  has been ignored and will not be added.
+2024/10/18 Fri 22:38:19.229426 [3935 10739128][VERB] Node  V2RayProvider - 过滤掉3条线路  has been added.
+2024/10/18 Fri 22:38:19.229448 [3935 10739128][VERB] Node  V2RayProvider - 日本-优化  has been added.
+2024/10/18 Fri 22:38:19.229471 [3935 10739128][VERB] Node  V2RayProvider - 日本-优化2  has been added.
+2024/10/18 Fri 22:38:19.229493 [3935 10739128][VERB] Node  V2RayProvider - 日本-优化3  has been added.
+2024/10/18 Fri 22:38:19.229515 [3935 10739128][VERB] Node  TrojanProvider - 日本JP-T  has been added.
+2024/10/18 Fri 22:38:19.229537 [3935 10739128][VERB] Node  TrojanProvider - 新加坡SG-T  has been added.
+2024/10/18 Fri 22:38:19.229559 [3935 10739128][VERB] Node  TrojanProvider - 柬埔寨KH-T  has been added.
+2024/10/18 Fri 22:38:19.229581 [3935 10739128][VERB] Node  TrojanProvider - 美国USLA-T-GPT  has been added.
+2024/10/18 Fri 22:38:19.229603 [3935 10739128][VERB] Node  V2RayProvider - 新加坡-优化  has been added.
+2024/10/18 Fri 22:38:19.229625 [3935 10739128][VERB] Node  V2RayProvider - 新加坡-优化2  has been added.
+2024/10/18 Fri 22:38:19.229651 [3935 10739128][VERB] Node  V2RayProvider - 新加坡-优化3  has been added.
+2024/10/18 Fri 22:38:19.229672 [3935 10739128][VERB] Node  TrojanProvider - 香港wap-T  has been added.
+2024/10/18 Fri 22:38:19.229694 [3935 10739128][VERB] Node  TrojanProvider - 台湾WAP-T-GPT  has been added.
+2024/10/18 Fri 22:38:19.229716 [3935 10739128][VERB] Node  TrojanProvider - 越南VN-T  has been added.
+2024/10/18 Fri 22:38:19.229738 [3935 10739128][VERB] Node  V2RayProvider - 马来西亚-优化  has been added.
+2024/10/18 Fri 22:38:19.229760 [3935 10739128][VERB] Node  V2RayProvider - 马来西亚-优化2  has been added.
+2024/10/18 Fri 22:38:19.229783 [3935 10739128][VERB] Node  V2RayProvider - 马来西亚-优化3  has been added.
+2024/10/18 Fri 22:38:19.229804 [3935 10739128][VERB] Node  V2RayProvider - 香港WAP-优化  has been added.
+2024/10/18 Fri 22:38:19.229826 [3935 10739128][VERB] Node  V2RayProvider - 香港WAP-优化2  has been added.
+2024/10/18 Fri 22:38:19.229848 [3935 10739128][VERB] Node  V2RayProvider - 印度-优化  has been added.
+2024/10/18 Fri 22:38:19.229877 [3935 10739128][VERB] Node  V2RayProvider - 台湾-优化  has been added.
+2024/10/18 Fri 22:38:19.229899 [3935 10739128][VERB] Node  V2RayProvider - 台湾-优化2  has been added.
+2024/10/18 Fri 22:38:19.229925 [3935 10739128][VERB] Node  V2RayProvider - 台湾-优化3  has been added.
+2024/10/18 Fri 22:38:19.229948 [3935 10739128][VERB] Node  V2RayProvider - 美国LA-优化-GPT  has been added.
+2024/10/18 Fri 22:38:19.229969 [3935 10739128][VERB] Node  V2RayProvider - 美国LA-优化2-GPT  has been added.
+2024/10/18 Fri 22:38:19.229991 [3935 10739128][VERB] Node  V2RayProvider - 美国LA-优化3-GPT  has been added.
+2024/10/18 Fri 22:38:19.230013 [3935 10739128][VERB] Node  V2RayProvider - 德国-优化  has been added.
+2024/10/18 Fri 22:38:19.230044 [3935 10739128][VERB] Node  V2RayProvider - 德国-优化2  has been added.
+2024/10/18 Fri 22:38:19.230066 [3935 10739128][VERB] Node  V2RayProvider - 英国-优化-GPT  has been added.
+2024/10/18 Fri 22:38:19.230088 [3935 10739128][VERB] Node  V2RayProvider - 英国-优化2  has been added.
+2024/10/18 Fri 22:38:19.230109 [3935 10739128][VERB] Node  V2RayProvider - 英国-优化3  has been added.
+2024/10/18 Fri 22:38:19.230131 [3935 10739128][VERB] Node  TrojanProvider - 澳大利亚AU-T  has been added.
+2024/10/18 Fri 22:38:19.230153 [3935 10739128][VERB] Node  TrojanProvider - 土耳其TR-T  has been added.
+2024/10/18 Fri 22:38:19.230176 [3935 10739128][VERB] Node  TrojanProvider - 卢森堡LUX-T  has been added.
+2024/10/18 Fri 22:38:19.230197 [3935 10739128][VERB] Node  TrojanProvider - 朝鲜KP-T  has been added.
+2024/10/18 Fri 22:38:19.230219 [3935 10739128][VERB] Node  TrojanProvider - 意大利IT-T  has been added.
+2024/10/18 Fri 22:38:19.230240 [3935 10739128][VERB] Node  TrojanProvider - 葡萄牙PT-T  has been added.
+2024/10/18 Fri 22:38:19.230261 [3935 10739128][VERB] Node  TrojanProvider - 俄罗斯RU-T  has been added.
+2024/10/18 Fri 22:38:19.230284 [3935 10739128][VERB] Node  TrojanProvider - 哈萨克斯坦KZ-T  has been added.
+2024/10/18 Fri 22:38:19.230306 [3935 10739128][VERB] Node  TrojanProvider - 乌克兰UA-T  has been added.
+2024/10/18 Fri 22:38:19.230328 [3935 10739128][VERB] Node  TrojanProvider - 以色列IL-T  has been added.
+2024/10/18 Fri 22:38:19.230349 [3935 10739128][VERB] Node  TrojanProvider - 英国UK-T  has been added.
+2024/10/18 Fri 22:38:19.230371 [3935 10739128][VERB] Node  TrojanProvider - 阿根廷AR-T  has been added.
+2024/10/18 Fri 22:38:19.230393 [3935 10739128][VERB] Node  TrojanProvider - 尼日利亚NI-T  has been added.
+2024/10/18 Fri 22:38:19.230414 [3935 10739128][VERB] Filter done.
+2024/10/18 Fri 22:38:19.231006 [3935 10739128][INFO] Generate target: Clash
+2024/10/18 Fri 22:38:19.250121 [3935 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/18 Fri 22:38:19.251405 [3935 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/18 Fri 22:38:19.258958 [3935 10739128][INFO] Generate completed.
+2024/10/18 Fri 22:38:19.259558 [3935 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/18 Fri 22:38:19.259589 [3935 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/18 Fri 22:38:19.259609 [3935 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/18 Fri 22:38:19.259662 [3935 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/18 Fri 22:38:19.259691 [3935 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/18 Fri 22:38:19.259792 [3935 10739128][VERB] Imported 0 item(s).
+2024/10/18 Fri 22:38:19.259834 [3935 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/18 Fri 22:38:19.261187 [3935 10739128][VERB] Received Link.
+2024/10/18 Fri 22:38:19.261298 [3935 10739128][INFO] Generate target: Clash
+2024/10/18 Fri 22:38:19.276804 [3935 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/18 Fri 22:38:19.278103 [3935 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/18 Fri 22:38:19.280446 [3935 10739128][INFO] Generate completed.
+2024/10/18 Fri 22:38:19.281017 [3935 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/18 Fri 22:38:19.281053 [3935 10739128][INFO] All artifact generated. Exiting...
+2024/10/18 Fri 22:40:06.131583 [4449 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/18 Fri 22:40:06.132384 [4449 10739128][INFO] Reading preference settings...
+2024/10/18 Fri 22:40:06.152267 [4449 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/18 Fri 22:40:06.152452 [4449 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/18 Fri 22:40:06.152766 [4449 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/18 Fri 22:40:06.153123 [4449 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/18 Fri 22:40:06.153428 [4449 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/18 Fri 22:40:06.153494 [4449 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/18 Fri 22:40:06.153796 [4449 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/18 Fri 22:40:06.154098 [4449 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:40:06.154336 [4449 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:40:06.154577 [4449 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:40:06.154835 [4449 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:40:06.155071 [4449 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:40:06.155327 [4449 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/18 Fri 22:40:06.155514 [4449 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/18 Fri 22:40:06.155560 [4449 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/18 Fri 22:40:06.155783 [4449 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/18 Fri 22:40:06.156069 [4449 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/18 Fri 22:40:06.156187 [4449 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/18 Fri 22:40:06.156266 [4449 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/18 Fri 22:40:06.156315 [4449 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/18 Fri 22:40:06.156379 [4449 10739128][INFO] Reading generator configuration...
+2024/10/18 Fri 22:40:06.156435 [4449 10739128][INFO] Read generator configuration completed.
+
+2024/10/18 Fri 22:40:06.156453 [4449 10739128][INFO] Generating all artifacts...
+2024/10/18 Fri 22:40:06.156473 [4449 10739128][INFO] Generating artifact 'test'...
+2024/10/18 Fri 22:40:06.156545 [4449 10739128][VERB] Imported 0 item(s).
+2024/10/18 Fri 22:40:06.156613 [4449 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/18 Fri 22:40:06.158193 [4449 10739128][VERB] Received Link.
+2024/10/18 Fri 22:40:06.158234 [4449 10739128][VERB] Parsing configuration file data...
+2024/10/18 Fri 22:40:06.159774 [4449 10739128][VERB] Node  SSProvider - 剩余流量：120.18 GB  has been ignored and will not be added.
+2024/10/18 Fri 22:40:06.159813 [4449 10739128][VERB] Node  SSProvider - 套餐到期：2024-11-18  has been ignored and will not be added.
+2024/10/18 Fri 22:40:06.159841 [4449 10739128][VERB] Node  SSProvider - 定期更新订阅|官网 https://panel.selom.xyz/  has been ignored and will not be added.
+2024/10/18 Fri 22:40:06.159871 [4449 10739128][VERB] Node  TrojanProvider - 香港DC 01 CM/CU 0.5x  has been added.
+2024/10/18 Fri 22:40:06.159900 [4449 10739128][VERB] Node  TrojanProvider - 香港 DC 02 CM/CU 0.5x  has been added.
+2024/10/18 Fri 22:40:06.159923 [4449 10739128][VERB] Node  SSProvider - 香港低倍率 0.6x  has been added.
+2024/10/18 Fri 22:40:06.159946 [4449 10739128][VERB] Node  SSProvider - 新加坡低倍率 0.6x  has been added.
+2024/10/18 Fri 22:40:06.159968 [4449 10739128][VERB] Node  SSProvider - 日本低倍率 0.6x  has been added.
+2024/10/18 Fri 22:40:06.159991 [4449 10739128][VERB] Node  SSProvider - 美国低倍率 0.6x  has been added.
+2024/10/18 Fri 22:40:06.160012 [4449 10739128][VERB] Node  SSProvider - 香港01  has been added.
+2024/10/18 Fri 22:40:06.160034 [4449 10739128][VERB] Node  SSProvider - 香港02  has been added.
+2024/10/18 Fri 22:40:06.160056 [4449 10739128][VERB] Node  SSProvider - 香港03  has been added.
+2024/10/18 Fri 22:40:06.160079 [4449 10739128][VERB] Node  SSProvider - 香港04  has been added.
+2024/10/18 Fri 22:40:06.160101 [4449 10739128][VERB] Node  SSProvider - 香港05  has been added.
+2024/10/18 Fri 22:40:06.160123 [4449 10739128][VERB] Node  SSProvider - 香港06  has been added.
+2024/10/18 Fri 22:40:06.160145 [4449 10739128][VERB] Node  SSProvider - 台湾01  has been added.
+2024/10/18 Fri 22:40:06.160166 [4449 10739128][VERB] Node  SSProvider - 台湾02  has been added.
+2024/10/18 Fri 22:40:06.160188 [4449 10739128][VERB] Node  SSProvider - 日本01  has been added.
+2024/10/18 Fri 22:40:06.160210 [4449 10739128][VERB] Node  SSProvider - 日本02  has been added.
+2024/10/18 Fri 22:40:06.160232 [4449 10739128][VERB] Node  SSProvider - 日本03  has been added.
+2024/10/18 Fri 22:40:06.160254 [4449 10739128][VERB] Node  SSProvider - 日本04  has been added.
+2024/10/18 Fri 22:40:06.160276 [4449 10739128][VERB] Node  SSProvider - 新加坡01  has been added.
+2024/10/18 Fri 22:40:06.160298 [4449 10739128][VERB] Node  SSProvider - 新加坡02  has been added.
+2024/10/18 Fri 22:40:06.160320 [4449 10739128][VERB] Node  SSProvider - 新加坡03  has been added.
+2024/10/18 Fri 22:40:06.160342 [4449 10739128][VERB] Node  SSProvider - 新加坡04  has been added.
+2024/10/18 Fri 22:40:06.160364 [4449 10739128][VERB] Node  SSProvider - 美国01  has been added.
+2024/10/18 Fri 22:40:06.160385 [4449 10739128][VERB] Node  SSProvider - 美国02  has been added.
+2024/10/18 Fri 22:40:06.160407 [4449 10739128][VERB] Node  SSProvider - 美国03  has been added.
+2024/10/18 Fri 22:40:06.160428 [4449 10739128][VERB] Node  SSProvider - 防失联节点 01  has been added.
+2024/10/18 Fri 22:40:06.160451 [4449 10739128][VERB] Node  SSProvider - 防失联节点 02  has been added.
+2024/10/18 Fri 22:40:06.160468 [4449 10739128][VERB] Filter done.
+2024/10/18 Fri 22:40:06.160899 [4449 10739128][INFO] Generate target: Clash
+2024/10/18 Fri 22:40:06.177997 [4449 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/18 Fri 22:40:06.179281 [4449 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/18 Fri 22:40:06.184056 [4449 10739128][INFO] Generate completed.
+2024/10/18 Fri 22:40:06.184598 [4449 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/18 Fri 22:40:06.184625 [4449 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/18 Fri 22:40:06.184646 [4449 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/18 Fri 22:40:06.184694 [4449 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/18 Fri 22:40:06.184723 [4449 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/18 Fri 22:40:06.184825 [4449 10739128][VERB] Imported 0 item(s).
+2024/10/18 Fri 22:40:06.184877 [4449 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/18 Fri 22:40:06.186201 [4449 10739128][VERB] Received Link.
+2024/10/18 Fri 22:40:06.186302 [4449 10739128][INFO] Generate target: Clash
+2024/10/18 Fri 22:40:06.201332 [4449 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/18 Fri 22:40:06.202591 [4449 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/18 Fri 22:40:06.204910 [4449 10739128][INFO] Generate completed.
+2024/10/18 Fri 22:40:06.205469 [4449 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/18 Fri 22:40:06.205502 [4449 10739128][INFO] All artifact generated. Exiting...
+2024/10/19 Sat 13:01:48.475880 [8036 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/19 Sat 13:01:48.477311 [8036 10739128][INFO] Reading preference settings...
+2024/10/19 Sat 13:01:48.497194 [8036 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/19 Sat 13:01:48.497537 [8036 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/19 Sat 13:01:48.497891 [8036 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/19 Sat 13:01:48.497995 [8036 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/19 Sat 13:01:48.498470 [8036 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/19 Sat 13:01:48.498542 [8036 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/19 Sat 13:01:48.498830 [8036 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/19 Sat 13:01:48.499248 [8036 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:01:48.499374 [8036 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:01:48.499465 [8036 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:01:48.499681 [8036 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:01:48.499823 [8036 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:01:48.499955 [8036 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:01:48.500107 [8036 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/19 Sat 13:01:48.500173 [8036 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/19 Sat 13:01:48.500290 [8036 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/19 Sat 13:01:48.500386 [8036 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/19 Sat 13:01:48.500492 [8036 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/19 Sat 13:01:48.500715 [8036 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/19 Sat 13:01:48.500775 [8036 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/19 Sat 13:01:48.500849 [8036 10739128][INFO] Reading generator configuration...
+2024/10/19 Sat 13:01:48.500913 [8036 10739128][INFO] Read generator configuration completed.
+
+2024/10/19 Sat 13:01:48.500943 [8036 10739128][INFO] Generating all artifacts...
+2024/10/19 Sat 13:01:48.500976 [8036 10739128][INFO] Generating artifact 'test'...
+2024/10/19 Sat 13:01:48.501060 [8036 10739128][VERB] Imported 0 item(s).
+2024/10/19 Sat 13:01:48.501129 [8036 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/19 Sat 13:01:48.502592 [8036 10739128][VERB] Received Link.
+2024/10/19 Sat 13:01:48.502630 [8036 10739128][VERB] Parsing configuration file data...
+2024/10/19 Sat 13:01:48.505356 [8036 10739128][VERB] Node  V2RayProvider - 剩余流量：50.61 GB  has been ignored and will not be added.
+2024/10/19 Sat 13:01:48.505405 [8036 10739128][VERB] Node  V2RayProvider - 套餐到期：长期有效  has been ignored and will not be added.
+2024/10/19 Sat 13:01:48.505440 [8036 10739128][VERB] Node  V2RayProvider - 过滤掉3条线路  has been added.
+2024/10/19 Sat 13:01:48.505466 [8036 10739128][VERB] Node  V2RayProvider - 日本-优化  has been added.
+2024/10/19 Sat 13:01:48.505490 [8036 10739128][VERB] Node  V2RayProvider - 日本-优化2  has been added.
+2024/10/19 Sat 13:01:48.505515 [8036 10739128][VERB] Node  V2RayProvider - 日本-优化3  has been added.
+2024/10/19 Sat 13:01:48.505541 [8036 10739128][VERB] Node  TrojanProvider - 日本JP-T  has been added.
+2024/10/19 Sat 13:01:48.505565 [8036 10739128][VERB] Node  TrojanProvider - 新加坡SG-T  has been added.
+2024/10/19 Sat 13:01:48.505590 [8036 10739128][VERB] Node  TrojanProvider - 柬埔寨KH-T  has been added.
+2024/10/19 Sat 13:01:48.505615 [8036 10739128][VERB] Node  TrojanProvider - 美国USLA-T-GPT  has been added.
+2024/10/19 Sat 13:01:48.505640 [8036 10739128][VERB] Node  V2RayProvider - 新加坡-优化  has been added.
+2024/10/19 Sat 13:01:48.505667 [8036 10739128][VERB] Node  V2RayProvider - 新加坡-优化2  has been added.
+2024/10/19 Sat 13:01:48.505692 [8036 10739128][VERB] Node  V2RayProvider - 新加坡-优化3  has been added.
+2024/10/19 Sat 13:01:48.505716 [8036 10739128][VERB] Node  TrojanProvider - 香港wap-T  has been added.
+2024/10/19 Sat 13:01:48.505740 [8036 10739128][VERB] Node  TrojanProvider - 台湾WAP-T-GPT  has been added.
+2024/10/19 Sat 13:01:48.505764 [8036 10739128][VERB] Node  TrojanProvider - 越南VN-T  has been added.
+2024/10/19 Sat 13:01:48.505790 [8036 10739128][VERB] Node  V2RayProvider - 马来西亚-优化  has been added.
+2024/10/19 Sat 13:01:48.505815 [8036 10739128][VERB] Node  V2RayProvider - 马来西亚-优化2  has been added.
+2024/10/19 Sat 13:01:48.505840 [8036 10739128][VERB] Node  V2RayProvider - 马来西亚-优化3  has been added.
+2024/10/19 Sat 13:01:48.505864 [8036 10739128][VERB] Node  V2RayProvider - 香港WAP-优化  has been added.
+2024/10/19 Sat 13:01:48.505889 [8036 10739128][VERB] Node  V2RayProvider - 香港WAP-优化2  has been added.
+2024/10/19 Sat 13:01:48.505914 [8036 10739128][VERB] Node  V2RayProvider - 印度-优化  has been added.
+2024/10/19 Sat 13:01:48.505939 [8036 10739128][VERB] Node  V2RayProvider - 台湾-优化  has been added.
+2024/10/19 Sat 13:01:48.505964 [8036 10739128][VERB] Node  V2RayProvider - 台湾-优化2  has been added.
+2024/10/19 Sat 13:01:48.505989 [8036 10739128][VERB] Node  V2RayProvider - 台湾-优化3  has been added.
+2024/10/19 Sat 13:01:48.506013 [8036 10739128][VERB] Node  V2RayProvider - 美国LA-优化-GPT  has been added.
+2024/10/19 Sat 13:01:48.506044 [8036 10739128][VERB] Node  V2RayProvider - 美国LA-优化2-GPT  has been added.
+2024/10/19 Sat 13:01:48.506068 [8036 10739128][VERB] Node  V2RayProvider - 美国LA-优化3-GPT  has been added.
+2024/10/19 Sat 13:01:48.506093 [8036 10739128][VERB] Node  V2RayProvider - 德国-优化  has been added.
+2024/10/19 Sat 13:01:48.506118 [8036 10739128][VERB] Node  V2RayProvider - 德国-优化2  has been added.
+2024/10/19 Sat 13:01:48.506142 [8036 10739128][VERB] Node  V2RayProvider - 英国-优化-GPT  has been added.
+2024/10/19 Sat 13:01:48.506168 [8036 10739128][VERB] Node  V2RayProvider - 英国-优化2  has been added.
+2024/10/19 Sat 13:01:48.506193 [8036 10739128][VERB] Node  V2RayProvider - 英国-优化3  has been added.
+2024/10/19 Sat 13:01:48.506223 [8036 10739128][VERB] Node  TrojanProvider - 澳大利亚AU-T  has been added.
+2024/10/19 Sat 13:01:48.506247 [8036 10739128][VERB] Node  TrojanProvider - 土耳其TR-T  has been added.
+2024/10/19 Sat 13:01:48.506272 [8036 10739128][VERB] Node  TrojanProvider - 卢森堡LUX-T  has been added.
+2024/10/19 Sat 13:01:48.506298 [8036 10739128][VERB] Node  TrojanProvider - 朝鲜KP-T  has been added.
+2024/10/19 Sat 13:01:48.506322 [8036 10739128][VERB] Node  TrojanProvider - 意大利IT-T  has been added.
+2024/10/19 Sat 13:01:48.506346 [8036 10739128][VERB] Node  TrojanProvider - 葡萄牙PT-T  has been added.
+2024/10/19 Sat 13:01:48.506370 [8036 10739128][VERB] Node  TrojanProvider - 俄罗斯RU-T  has been added.
+2024/10/19 Sat 13:01:48.506395 [8036 10739128][VERB] Node  TrojanProvider - 哈萨克斯坦KZ-T  has been added.
+2024/10/19 Sat 13:01:48.506420 [8036 10739128][VERB] Node  TrojanProvider - 乌克兰UA-T  has been added.
+2024/10/19 Sat 13:01:48.506445 [8036 10739128][VERB] Node  TrojanProvider - 以色列IL-T  has been added.
+2024/10/19 Sat 13:01:48.506469 [8036 10739128][VERB] Node  TrojanProvider - 英国UK-T  has been added.
+2024/10/19 Sat 13:01:48.506494 [8036 10739128][VERB] Node  TrojanProvider - 阿根廷AR-T  has been added.
+2024/10/19 Sat 13:01:48.506519 [8036 10739128][VERB] Node  TrojanProvider - 尼日利亚NI-T  has been added.
+2024/10/19 Sat 13:01:48.506539 [8036 10739128][VERB] Filter done.
+2024/10/19 Sat 13:01:48.507130 [8036 10739128][INFO] Generate target: Clash
+2024/10/19 Sat 13:01:48.525791 [8036 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/19 Sat 13:01:48.527073 [8036 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/19 Sat 13:01:48.534506 [8036 10739128][INFO] Generate completed.
+2024/10/19 Sat 13:01:48.534952 [8036 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/19 Sat 13:01:48.534985 [8036 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/19 Sat 13:01:48.535008 [8036 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/19 Sat 13:01:48.535063 [8036 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/19 Sat 13:01:48.535094 [8036 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/19 Sat 13:01:48.535194 [8036 10739128][VERB] Imported 0 item(s).
+2024/10/19 Sat 13:01:48.535233 [8036 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/19 Sat 13:01:48.536519 [8036 10739128][VERB] Received Link.
+2024/10/19 Sat 13:01:48.536618 [8036 10739128][INFO] Generate target: Clash
+2024/10/19 Sat 13:01:48.551724 [8036 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/19 Sat 13:01:48.552958 [8036 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/19 Sat 13:01:48.555280 [8036 10739128][INFO] Generate completed.
+2024/10/19 Sat 13:01:48.555725 [8036 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/19 Sat 13:01:48.555750 [8036 10739128][INFO] All artifact generated. Exiting...
+2024/10/19 Sat 13:03:01.743965 [8541 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/19 Sat 13:03:01.745584 [8541 10739128][INFO] Reading preference settings...
+2024/10/19 Sat 13:03:01.765316 [8541 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/19 Sat 13:03:01.765457 [8541 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/19 Sat 13:03:01.765774 [8541 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/19 Sat 13:03:01.765949 [8541 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/19 Sat 13:03:01.766494 [8541 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/19 Sat 13:03:01.766556 [8541 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/19 Sat 13:03:01.766771 [8541 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/19 Sat 13:03:01.766938 [8541 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:03:01.767170 [8541 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:03:01.767249 [8541 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:03:01.767369 [8541 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:03:01.767480 [8541 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:03:01.767741 [8541 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 13:03:01.767952 [8541 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/19 Sat 13:03:01.768002 [8541 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/19 Sat 13:03:01.768107 [8541 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/19 Sat 13:03:01.768233 [8541 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/19 Sat 13:03:01.768360 [8541 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/19 Sat 13:03:01.768603 [8541 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/19 Sat 13:03:01.768649 [8541 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/19 Sat 13:03:01.768714 [8541 10739128][INFO] Reading generator configuration...
+2024/10/19 Sat 13:03:01.768765 [8541 10739128][INFO] Read generator configuration completed.
+
+2024/10/19 Sat 13:03:01.768786 [8541 10739128][INFO] Generating all artifacts...
+2024/10/19 Sat 13:03:01.768806 [8541 10739128][INFO] Generating artifact 'test'...
+2024/10/19 Sat 13:03:01.768877 [8541 10739128][VERB] Imported 0 item(s).
+2024/10/19 Sat 13:03:01.768938 [8541 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/19 Sat 13:03:01.770409 [8541 10739128][VERB] Received Link.
+2024/10/19 Sat 13:03:01.770447 [8541 10739128][VERB] Parsing configuration file data...
+2024/10/19 Sat 13:03:01.771718 [8541 10739128][VERB] Node  SSProvider - 剩余流量：120.18 GB  has been ignored and will not be added.
+2024/10/19 Sat 13:03:01.771761 [8541 10739128][VERB] Node  SSProvider - 距离下次重置剩余：30 天  has been added.
+2024/10/19 Sat 13:03:01.771786 [8541 10739128][VERB] Node  SSProvider - 套餐到期：2024-11-18  has been ignored and will not be added.
+2024/10/19 Sat 13:03:01.771816 [8541 10739128][VERB] Node  SSProvider - 定期更新订阅|官网 https://panel.selom.xyz/  has been ignored and will not be added.
+2024/10/19 Sat 13:03:01.771843 [8541 10739128][VERB] Node  TrojanProvider - 香港DC 01 CM/CU 0.5x  has been added.
+2024/10/19 Sat 13:03:01.771868 [8541 10739128][VERB] Node  TrojanProvider - 香港 DC 02 CM/CU 0.5x  has been added.
+2024/10/19 Sat 13:03:01.771893 [8541 10739128][VERB] Node  SSProvider - 香港低倍率 0.6x  has been added.
+2024/10/19 Sat 13:03:01.771924 [8541 10739128][VERB] Node  SSProvider - 新加坡低倍率 0.6x  has been added.
+2024/10/19 Sat 13:03:01.771949 [8541 10739128][VERB] Node  SSProvider - 日本低倍率 0.6x  has been added.
+2024/10/19 Sat 13:03:01.771974 [8541 10739128][VERB] Node  SSProvider - 美国低倍率 0.6x  has been added.
+2024/10/19 Sat 13:03:01.771999 [8541 10739128][VERB] Node  SSProvider - 香港01  has been added.
+2024/10/19 Sat 13:03:01.772034 [8541 10739128][VERB] Node  SSProvider - 香港02  has been added.
+2024/10/19 Sat 13:03:01.772058 [8541 10739128][VERB] Node  SSProvider - 香港03  has been added.
+2024/10/19 Sat 13:03:01.772083 [8541 10739128][VERB] Node  SSProvider - 香港04  has been added.
+2024/10/19 Sat 13:03:01.772107 [8541 10739128][VERB] Node  SSProvider - 香港05  has been added.
+2024/10/19 Sat 13:03:01.772133 [8541 10739128][VERB] Node  SSProvider - 香港06  has been added.
+2024/10/19 Sat 13:03:01.772158 [8541 10739128][VERB] Node  SSProvider - 台湾01  has been added.
+2024/10/19 Sat 13:03:01.772182 [8541 10739128][VERB] Node  SSProvider - 台湾02  has been added.
+2024/10/19 Sat 13:03:01.772207 [8541 10739128][VERB] Node  SSProvider - 日本01  has been added.
+2024/10/19 Sat 13:03:01.772231 [8541 10739128][VERB] Node  SSProvider - 日本02  has been added.
+2024/10/19 Sat 13:03:01.772255 [8541 10739128][VERB] Node  SSProvider - 日本03  has been added.
+2024/10/19 Sat 13:03:01.772280 [8541 10739128][VERB] Node  SSProvider - 日本04  has been added.
+2024/10/19 Sat 13:03:01.772305 [8541 10739128][VERB] Node  SSProvider - 新加坡01  has been added.
+2024/10/19 Sat 13:03:01.772330 [8541 10739128][VERB] Node  SSProvider - 新加坡02  has been added.
+2024/10/19 Sat 13:03:01.772354 [8541 10739128][VERB] Node  SSProvider - 新加坡03  has been added.
+2024/10/19 Sat 13:03:01.772379 [8541 10739128][VERB] Node  SSProvider - 新加坡04  has been added.
+2024/10/19 Sat 13:03:01.772403 [8541 10739128][VERB] Node  SSProvider - 美国01  has been added.
+2024/10/19 Sat 13:03:01.772427 [8541 10739128][VERB] Node  SSProvider - 美国02  has been added.
+2024/10/19 Sat 13:03:01.772451 [8541 10739128][VERB] Node  SSProvider - 美国03  has been added.
+2024/10/19 Sat 13:03:01.772476 [8541 10739128][VERB] Node  SSProvider - 防失联节点 01  has been added.
+2024/10/19 Sat 13:03:01.772500 [8541 10739128][VERB] Node  SSProvider - 防失联节点 02  has been added.
+2024/10/19 Sat 13:03:01.772520 [8541 10739128][VERB] Filter done.
+2024/10/19 Sat 13:03:01.772962 [8541 10739128][INFO] Generate target: Clash
+2024/10/19 Sat 13:03:01.789774 [8541 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/19 Sat 13:03:01.791024 [8541 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/19 Sat 13:03:01.795845 [8541 10739128][INFO] Generate completed.
+2024/10/19 Sat 13:03:01.796303 [8541 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/19 Sat 13:03:01.796339 [8541 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/19 Sat 13:03:01.796361 [8541 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/19 Sat 13:03:01.796405 [8541 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/19 Sat 13:03:01.796437 [8541 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/19 Sat 13:03:01.796533 [8541 10739128][VERB] Imported 0 item(s).
+2024/10/19 Sat 13:03:01.796571 [8541 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/19 Sat 13:03:01.797894 [8541 10739128][VERB] Received Link.
+2024/10/19 Sat 13:03:01.797984 [8541 10739128][INFO] Generate target: Clash
+2024/10/19 Sat 13:03:01.813120 [8541 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/19 Sat 13:03:01.814356 [8541 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/19 Sat 13:03:01.816689 [8541 10739128][INFO] Generate completed.
+2024/10/19 Sat 13:03:01.817174 [8541 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/19 Sat 13:03:01.817206 [8541 10739128][INFO] All artifact generated. Exiting...
+2024/10/19 Sat 21:34:43.089029 [7070 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/19 Sat 21:34:43.090021 [7070 10739128][INFO] Reading preference settings...
+2024/10/19 Sat 21:34:43.109746 [7070 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/19 Sat 21:34:43.110086 [7070 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/19 Sat 21:34:43.110413 [7070 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/19 Sat 21:34:43.110687 [7070 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/19 Sat 21:34:43.111106 [7070 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/19 Sat 21:34:43.111180 [7070 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/19 Sat 21:34:43.111501 [7070 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/19 Sat 21:34:43.111874 [7070 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:34:43.112039 [7070 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:34:43.112265 [7070 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:34:43.112544 [7070 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:34:43.112661 [7070 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:34:43.112876 [7070 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:34:43.112963 [7070 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/19 Sat 21:34:43.113025 [7070 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/19 Sat 21:34:43.113324 [7070 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/19 Sat 21:34:43.113613 [7070 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/19 Sat 21:34:43.113733 [7070 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/19 Sat 21:34:43.113818 [7070 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/19 Sat 21:34:43.113877 [7070 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/19 Sat 21:34:43.113942 [7070 10739128][INFO] Reading generator configuration...
+2024/10/19 Sat 21:34:43.114005 [7070 10739128][INFO] Read generator configuration completed.
+
+2024/10/19 Sat 21:34:43.114035 [7070 10739128][INFO] Generating all artifacts...
+2024/10/19 Sat 21:34:43.114063 [7070 10739128][INFO] Generating artifact 'test'...
+2024/10/19 Sat 21:34:43.114146 [7070 10739128][VERB] Imported 0 item(s).
+2024/10/19 Sat 21:34:43.114221 [7070 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/19 Sat 21:34:43.115731 [7070 10739128][VERB] Received Link.
+2024/10/19 Sat 21:34:43.115783 [7070 10739128][VERB] Parsing configuration file data...
+2024/10/19 Sat 21:34:43.118571 [7070 10739128][VERB] Node  V2RayProvider - 剩余流量：50.61 GB  has been ignored and will not be added.
+2024/10/19 Sat 21:34:43.118622 [7070 10739128][VERB] Node  V2RayProvider - 套餐到期：长期有效  has been ignored and will not be added.
+2024/10/19 Sat 21:34:43.118657 [7070 10739128][VERB] Node  V2RayProvider - 过滤掉3条线路  has been added.
+2024/10/19 Sat 21:34:43.118682 [7070 10739128][VERB] Node  V2RayProvider - 日本-优化  has been added.
+2024/10/19 Sat 21:34:43.118712 [7070 10739128][VERB] Node  V2RayProvider - 日本-优化2  has been added.
+2024/10/19 Sat 21:34:43.118736 [7070 10739128][VERB] Node  V2RayProvider - 日本-优化3  has been added.
+2024/10/19 Sat 21:34:43.118761 [7070 10739128][VERB] Node  TrojanProvider - 日本JP-T  has been added.
+2024/10/19 Sat 21:34:43.118786 [7070 10739128][VERB] Node  TrojanProvider - 新加坡SG-T  has been added.
+2024/10/19 Sat 21:34:43.118811 [7070 10739128][VERB] Node  TrojanProvider - 柬埔寨KH-T  has been added.
+2024/10/19 Sat 21:34:43.118835 [7070 10739128][VERB] Node  TrojanProvider - 美国USLA-T-GPT  has been added.
+2024/10/19 Sat 21:34:43.118861 [7070 10739128][VERB] Node  V2RayProvider - 新加坡-优化  has been added.
+2024/10/19 Sat 21:34:43.118887 [7070 10739128][VERB] Node  V2RayProvider - 新加坡-优化2  has been added.
+2024/10/19 Sat 21:34:43.118912 [7070 10739128][VERB] Node  V2RayProvider - 新加坡-优化3  has been added.
+2024/10/19 Sat 21:34:43.118936 [7070 10739128][VERB] Node  TrojanProvider - 香港wap-T  has been added.
+2024/10/19 Sat 21:34:43.118961 [7070 10739128][VERB] Node  TrojanProvider - 台湾WAP-T-GPT  has been added.
+2024/10/19 Sat 21:34:43.118985 [7070 10739128][VERB] Node  TrojanProvider - 越南VN-T  has been added.
+2024/10/19 Sat 21:34:43.119011 [7070 10739128][VERB] Node  V2RayProvider - 马来西亚-优化  has been added.
+2024/10/19 Sat 21:34:43.119036 [7070 10739128][VERB] Node  V2RayProvider - 马来西亚-优化2  has been added.
+2024/10/19 Sat 21:34:43.119061 [7070 10739128][VERB] Node  V2RayProvider - 马来西亚-优化3  has been added.
+2024/10/19 Sat 21:34:43.119086 [7070 10739128][VERB] Node  V2RayProvider - 香港WAP-优化  has been added.
+2024/10/19 Sat 21:34:43.119110 [7070 10739128][VERB] Node  V2RayProvider - 香港WAP-优化2  has been added.
+2024/10/19 Sat 21:34:43.119136 [7070 10739128][VERB] Node  V2RayProvider - 印度-优化  has been added.
+2024/10/19 Sat 21:34:43.119161 [7070 10739128][VERB] Node  V2RayProvider - 台湾-优化  has been added.
+2024/10/19 Sat 21:34:43.119186 [7070 10739128][VERB] Node  V2RayProvider - 台湾-优化2  has been added.
+2024/10/19 Sat 21:34:43.119211 [7070 10739128][VERB] Node  V2RayProvider - 台湾-优化3  has been added.
+2024/10/19 Sat 21:34:43.119236 [7070 10739128][VERB] Node  V2RayProvider - 美国LA-优化-GPT  has been added.
+2024/10/19 Sat 21:34:43.119263 [7070 10739128][VERB] Node  V2RayProvider - 美国LA-优化2-GPT  has been added.
+2024/10/19 Sat 21:34:43.119288 [7070 10739128][VERB] Node  V2RayProvider - 美国LA-优化3-GPT  has been added.
+2024/10/19 Sat 21:34:43.119313 [7070 10739128][VERB] Node  V2RayProvider - 德国-优化  has been added.
+2024/10/19 Sat 21:34:43.119338 [7070 10739128][VERB] Node  V2RayProvider - 德国-优化2  has been added.
+2024/10/19 Sat 21:34:43.119364 [7070 10739128][VERB] Node  V2RayProvider - 英国-优化-GPT  has been added.
+2024/10/19 Sat 21:34:43.119389 [7070 10739128][VERB] Node  V2RayProvider - 英国-优化2  has been added.
+2024/10/19 Sat 21:34:43.119414 [7070 10739128][VERB] Node  V2RayProvider - 英国-优化3  has been added.
+2024/10/19 Sat 21:34:43.119439 [7070 10739128][VERB] Node  TrojanProvider - 澳大利亚AU-T  has been added.
+2024/10/19 Sat 21:34:43.119463 [7070 10739128][VERB] Node  TrojanProvider - 土耳其TR-T  has been added.
+2024/10/19 Sat 21:34:43.119489 [7070 10739128][VERB] Node  TrojanProvider - 卢森堡LUX-T  has been added.
+2024/10/19 Sat 21:34:43.119525 [7070 10739128][VERB] Node  TrojanProvider - 朝鲜KP-T  has been added.
+2024/10/19 Sat 21:34:43.119550 [7070 10739128][VERB] Node  TrojanProvider - 意大利IT-T  has been added.
+2024/10/19 Sat 21:34:43.119574 [7070 10739128][VERB] Node  TrojanProvider - 葡萄牙PT-T  has been added.
+2024/10/19 Sat 21:34:43.119598 [7070 10739128][VERB] Node  TrojanProvider - 俄罗斯RU-T  has been added.
+2024/10/19 Sat 21:34:43.119623 [7070 10739128][VERB] Node  TrojanProvider - 哈萨克斯坦KZ-T  has been added.
+2024/10/19 Sat 21:34:43.119649 [7070 10739128][VERB] Node  TrojanProvider - 乌克兰UA-T  has been added.
+2024/10/19 Sat 21:34:43.119674 [7070 10739128][VERB] Node  TrojanProvider - 以色列IL-T  has been added.
+2024/10/19 Sat 21:34:43.119698 [7070 10739128][VERB] Node  TrojanProvider - 英国UK-T  has been added.
+2024/10/19 Sat 21:34:43.119722 [7070 10739128][VERB] Node  TrojanProvider - 阿根廷AR-T  has been added.
+2024/10/19 Sat 21:34:43.119747 [7070 10739128][VERB] Node  TrojanProvider - 尼日利亚NI-T  has been added.
+2024/10/19 Sat 21:34:43.119768 [7070 10739128][VERB] Filter done.
+2024/10/19 Sat 21:34:43.120357 [7070 10739128][INFO] Generate target: Clash
+2024/10/19 Sat 21:34:43.139395 [7070 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/19 Sat 21:34:43.140661 [7070 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/19 Sat 21:34:43.148160 [7070 10739128][INFO] Generate completed.
+2024/10/19 Sat 21:34:43.148861 [7070 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/19 Sat 21:34:43.148892 [7070 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/19 Sat 21:34:43.148913 [7070 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/19 Sat 21:34:43.148961 [7070 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/19 Sat 21:34:43.148992 [7070 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/19 Sat 21:34:43.149100 [7070 10739128][VERB] Imported 0 item(s).
+2024/10/19 Sat 21:34:43.149143 [7070 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/19 Sat 21:34:43.150483 [7070 10739128][VERB] Received Link.
+2024/10/19 Sat 21:34:43.150603 [7070 10739128][INFO] Generate target: Clash
+2024/10/19 Sat 21:34:43.166184 [7070 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/19 Sat 21:34:43.167507 [7070 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/19 Sat 21:34:43.169882 [7070 10739128][INFO] Generate completed.
+2024/10/19 Sat 21:34:43.170474 [7070 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/19 Sat 21:34:43.170531 [7070 10739128][INFO] All artifact generated. Exiting...
+2024/10/19 Sat 21:35:01.268051 [7261 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/19 Sat 21:35:01.269451 [7261 10739128][INFO] Reading preference settings...
+2024/10/19 Sat 21:35:01.289278 [7261 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/19 Sat 21:35:01.289792 [7261 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/19 Sat 21:35:01.290093 [7261 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/19 Sat 21:35:01.290379 [7261 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/19 Sat 21:35:01.291222 [7261 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/19 Sat 21:35:01.291355 [7261 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/19 Sat 21:35:01.291802 [7261 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/19 Sat 21:35:01.292085 [7261 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:35:01.292324 [7261 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:35:01.292586 [7261 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:35:01.292855 [7261 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:35:01.293087 [7261 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:35:01.293342 [7261 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/19 Sat 21:35:01.293607 [7261 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/19 Sat 21:35:01.293675 [7261 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/19 Sat 21:35:01.293913 [7261 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/19 Sat 21:35:01.294117 [7261 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/19 Sat 21:35:01.294362 [7261 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/19 Sat 21:35:01.294530 [7261 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/19 Sat 21:35:01.294588 [7261 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/19 Sat 21:35:01.294658 [7261 10739128][INFO] Reading generator configuration...
+2024/10/19 Sat 21:35:01.294724 [7261 10739128][INFO] Read generator configuration completed.
+
+2024/10/19 Sat 21:35:01.294747 [7261 10739128][INFO] Generating all artifacts...
+2024/10/19 Sat 21:35:01.294768 [7261 10739128][INFO] Generating artifact 'test'...
+2024/10/19 Sat 21:35:01.294846 [7261 10739128][VERB] Imported 0 item(s).
+2024/10/19 Sat 21:35:01.294922 [7261 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/19 Sat 21:35:01.296456 [7261 10739128][VERB] Received Link.
+2024/10/19 Sat 21:35:01.296506 [7261 10739128][VERB] Parsing configuration file data...
+2024/10/19 Sat 21:35:01.297844 [7261 10739128][VERB] Node  SSProvider - 剩余流量：120.18 GB  has been ignored and will not be added.
+2024/10/19 Sat 21:35:01.297888 [7261 10739128][VERB] Node  SSProvider - 距离下次重置剩余：30 天  has been added.
+2024/10/19 Sat 21:35:01.297914 [7261 10739128][VERB] Node  SSProvider - 套餐到期：2024-11-18  has been ignored and will not be added.
+2024/10/19 Sat 21:35:01.297944 [7261 10739128][VERB] Node  SSProvider - 定期更新订阅|官网 https://panel.selom.xyz/  has been ignored and will not be added.
+2024/10/19 Sat 21:35:01.297974 [7261 10739128][VERB] Node  TrojanProvider - 香港DC 01 CM/CU 0.5x  has been added.
+2024/10/19 Sat 21:35:01.297999 [7261 10739128][VERB] Node  TrojanProvider - 香港 DC 02 CM/CU 0.5x  has been added.
+2024/10/19 Sat 21:35:01.298027 [7261 10739128][VERB] Node  SSProvider - 香港低倍率 0.6x  has been added.
+2024/10/19 Sat 21:35:01.298052 [7261 10739128][VERB] Node  SSProvider - 新加坡低倍率 0.6x  has been added.
+2024/10/19 Sat 21:35:01.298077 [7261 10739128][VERB] Node  SSProvider - 日本低倍率 0.6x  has been added.
+2024/10/19 Sat 21:35:01.298102 [7261 10739128][VERB] Node  SSProvider - 美国低倍率 0.6x  has been added.
+2024/10/19 Sat 21:35:01.298136 [7261 10739128][VERB] Node  SSProvider - 香港01  has been added.
+2024/10/19 Sat 21:35:01.298160 [7261 10739128][VERB] Node  SSProvider - 香港02  has been added.
+2024/10/19 Sat 21:35:01.298186 [7261 10739128][VERB] Node  SSProvider - 香港03  has been added.
+2024/10/19 Sat 21:35:01.298210 [7261 10739128][VERB] Node  SSProvider - 香港04  has been added.
+2024/10/19 Sat 21:35:01.298235 [7261 10739128][VERB] Node  SSProvider - 香港05  has been added.
+2024/10/19 Sat 21:35:01.298259 [7261 10739128][VERB] Node  SSProvider - 香港06  has been added.
+2024/10/19 Sat 21:35:01.298284 [7261 10739128][VERB] Node  SSProvider - 台湾01  has been added.
+2024/10/19 Sat 21:35:01.298310 [7261 10739128][VERB] Node  SSProvider - 台湾02  has been added.
+2024/10/19 Sat 21:35:01.298335 [7261 10739128][VERB] Node  SSProvider - 日本01  has been added.
+2024/10/19 Sat 21:35:01.298359 [7261 10739128][VERB] Node  SSProvider - 日本02  has been added.
+2024/10/19 Sat 21:35:01.298384 [7261 10739128][VERB] Node  SSProvider - 日本03  has been added.
+2024/10/19 Sat 21:35:01.298409 [7261 10739128][VERB] Node  SSProvider - 日本04  has been added.
+2024/10/19 Sat 21:35:01.298436 [7261 10739128][VERB] Node  SSProvider - 新加坡01  has been added.
+2024/10/19 Sat 21:35:01.298461 [7261 10739128][VERB] Node  SSProvider - 新加坡02  has been added.
+2024/10/19 Sat 21:35:01.298486 [7261 10739128][VERB] Node  SSProvider - 新加坡03  has been added.
+2024/10/19 Sat 21:35:01.298521 [7261 10739128][VERB] Node  SSProvider - 新加坡04  has been added.
+2024/10/19 Sat 21:35:01.298547 [7261 10739128][VERB] Node  SSProvider - 美国01  has been added.
+2024/10/19 Sat 21:35:01.298571 [7261 10739128][VERB] Node  SSProvider - 美国02  has been added.
+2024/10/19 Sat 21:35:01.298596 [7261 10739128][VERB] Node  SSProvider - 美国03  has been added.
+2024/10/19 Sat 21:35:01.298621 [7261 10739128][VERB] Node  SSProvider - 防失联节点 01  has been added.
+2024/10/19 Sat 21:35:01.298645 [7261 10739128][VERB] Node  SSProvider - 防失联节点 02  has been added.
+2024/10/19 Sat 21:35:01.298666 [7261 10739128][VERB] Filter done.
+2024/10/19 Sat 21:35:01.299113 [7261 10739128][INFO] Generate target: Clash
+2024/10/19 Sat 21:35:01.316275 [7261 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/19 Sat 21:35:01.317571 [7261 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/19 Sat 21:35:01.322541 [7261 10739128][INFO] Generate completed.
+2024/10/19 Sat 21:35:01.323138 [7261 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/19 Sat 21:35:01.323172 [7261 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/19 Sat 21:35:01.323203 [7261 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/19 Sat 21:35:01.323251 [7261 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/19 Sat 21:35:01.323283 [7261 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/19 Sat 21:35:01.323386 [7261 10739128][VERB] Imported 0 item(s).
+2024/10/19 Sat 21:35:01.323431 [7261 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/19 Sat 21:35:01.324831 [7261 10739128][VERB] Received Link.
+2024/10/19 Sat 21:35:01.324936 [7261 10739128][INFO] Generate target: Clash
+2024/10/19 Sat 21:35:01.340615 [7261 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/19 Sat 21:35:01.341911 [7261 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/19 Sat 21:35:01.344273 [7261 10739128][INFO] Generate completed.
+2024/10/19 Sat 21:35:01.344879 [7261 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/19 Sat 21:35:01.344920 [7261 10739128][INFO] All artifact generated. Exiting...
+2024/10/20 Sun 13:41:10.230593 [6933 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/20 Sun 13:41:10.231631 [6933 10739128][INFO] Reading preference settings...
+2024/10/20 Sun 13:41:10.251402 [6933 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/20 Sun 13:41:10.251755 [6933 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/20 Sun 13:41:10.252076 [6933 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/20 Sun 13:41:10.252340 [6933 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/20 Sun 13:41:10.252718 [6933 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/20 Sun 13:41:10.252797 [6933 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/20 Sun 13:41:10.253067 [6933 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/20 Sun 13:41:10.253408 [6933 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:41:10.253626 [6933 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:41:10.253802 [6933 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:41:10.253980 [6933 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:41:10.254167 [6933 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:41:10.254401 [6933 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:41:10.254593 [6933 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/20 Sun 13:41:10.254652 [6933 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/20 Sun 13:41:10.254855 [6933 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/20 Sun 13:41:10.255116 [6933 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/20 Sun 13:41:10.255421 [6933 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/20 Sun 13:41:10.255629 [6933 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/20 Sun 13:41:10.255687 [6933 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/20 Sun 13:41:10.255748 [6933 10739128][INFO] Reading generator configuration...
+2024/10/20 Sun 13:41:10.255809 [6933 10739128][INFO] Read generator configuration completed.
+
+2024/10/20 Sun 13:41:10.255836 [6933 10739128][INFO] Generating all artifacts...
+2024/10/20 Sun 13:41:10.255861 [6933 10739128][INFO] Generating artifact 'test'...
+2024/10/20 Sun 13:41:10.255941 [6933 10739128][VERB] Imported 0 item(s).
+2024/10/20 Sun 13:41:10.256015 [6933 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/20 Sun 13:41:10.257559 [6933 10739128][VERB] Received Link.
+2024/10/20 Sun 13:41:10.257603 [6933 10739128][VERB] Parsing configuration file data...
+2024/10/20 Sun 13:41:10.261119 [6933 10739128][VERB] Node  V2RayProvider - 剩余流量：50.61 GB  has been ignored and will not be added.
+2024/10/20 Sun 13:41:10.261175 [6933 10739128][VERB] Node  V2RayProvider - 套餐到期：长期有效  has been ignored and will not be added.
+2024/10/20 Sun 13:41:10.261218 [6933 10739128][VERB] Node  V2RayProvider - 过滤掉3条线路  has been added.
+2024/10/20 Sun 13:41:10.261242 [6933 10739128][VERB] Node  V2RayProvider - 日本-优化  has been added.
+2024/10/20 Sun 13:41:10.261264 [6933 10739128][VERB] Node  V2RayProvider - 日本-优化2  has been added.
+2024/10/20 Sun 13:41:10.261337 [6933 10739128][VERB] Node  V2RayProvider - 日本-优化3  has been added.
+2024/10/20 Sun 13:41:10.261359 [6933 10739128][VERB] Node  TrojanProvider - 日本JP-T  has been added.
+2024/10/20 Sun 13:41:10.261381 [6933 10739128][VERB] Node  TrojanProvider - 新加坡SG-T  has been added.
+2024/10/20 Sun 13:41:10.261403 [6933 10739128][VERB] Node  TrojanProvider - 柬埔寨KH-T  has been added.
+2024/10/20 Sun 13:41:10.261426 [6933 10739128][VERB] Node  TrojanProvider - 美国USLA-T-GPT  has been added.
+2024/10/20 Sun 13:41:10.261448 [6933 10739128][VERB] Node  V2RayProvider - 新加坡-优化  has been added.
+2024/10/20 Sun 13:41:10.261470 [6933 10739128][VERB] Node  V2RayProvider - 新加坡-优化2  has been added.
+2024/10/20 Sun 13:41:10.261493 [6933 10739128][VERB] Node  V2RayProvider - 新加坡-优化3  has been added.
+2024/10/20 Sun 13:41:10.261514 [6933 10739128][VERB] Node  TrojanProvider - 香港wap-T  has been added.
+2024/10/20 Sun 13:41:10.261536 [6933 10739128][VERB] Node  TrojanProvider - 台湾WAP-T-GPT  has been added.
+2024/10/20 Sun 13:41:10.261559 [6933 10739128][VERB] Node  TrojanProvider - 越南VN-T  has been added.
+2024/10/20 Sun 13:41:10.261581 [6933 10739128][VERB] Node  V2RayProvider - 马来西亚-优化  has been added.
+2024/10/20 Sun 13:41:10.261603 [6933 10739128][VERB] Node  V2RayProvider - 马来西亚-优化2  has been added.
+2024/10/20 Sun 13:41:10.261625 [6933 10739128][VERB] Node  V2RayProvider - 马来西亚-优化3  has been added.
+2024/10/20 Sun 13:41:10.261647 [6933 10739128][VERB] Node  V2RayProvider - 香港WAP-优化  has been added.
+2024/10/20 Sun 13:41:10.261669 [6933 10739128][VERB] Node  V2RayProvider - 香港WAP-优化2  has been added.
+2024/10/20 Sun 13:41:10.261692 [6933 10739128][VERB] Node  V2RayProvider - 印度-优化  has been added.
+2024/10/20 Sun 13:41:10.261714 [6933 10739128][VERB] Node  V2RayProvider - 台湾-优化  has been added.
+2024/10/20 Sun 13:41:10.261736 [6933 10739128][VERB] Node  V2RayProvider - 台湾-优化2  has been added.
+2024/10/20 Sun 13:41:10.261758 [6933 10739128][VERB] Node  V2RayProvider - 台湾-优化3  has been added.
+2024/10/20 Sun 13:41:10.261780 [6933 10739128][VERB] Node  V2RayProvider - 美国LA-优化-GPT  has been added.
+2024/10/20 Sun 13:41:10.261801 [6933 10739128][VERB] Node  V2RayProvider - 美国LA-优化2-GPT  has been added.
+2024/10/20 Sun 13:41:10.261824 [6933 10739128][VERB] Node  V2RayProvider - 美国LA-优化3-GPT  has been added.
+2024/10/20 Sun 13:41:10.261846 [6933 10739128][VERB] Node  V2RayProvider - 德国-优化  has been added.
+2024/10/20 Sun 13:41:10.261867 [6933 10739128][VERB] Node  V2RayProvider - 德国-优化2  has been added.
+2024/10/20 Sun 13:41:10.261889 [6933 10739128][VERB] Node  V2RayProvider - 英国-优化-GPT  has been added.
+2024/10/20 Sun 13:41:10.261911 [6933 10739128][VERB] Node  V2RayProvider - 英国-优化2  has been added.
+2024/10/20 Sun 13:41:10.261935 [6933 10739128][VERB] Node  V2RayProvider - 英国-优化3  has been added.
+2024/10/20 Sun 13:41:10.261957 [6933 10739128][VERB] Node  TrojanProvider - 澳大利亚AU-T  has been added.
+2024/10/20 Sun 13:41:10.261978 [6933 10739128][VERB] Node  TrojanProvider - 土耳其TR-T  has been added.
+2024/10/20 Sun 13:41:10.262000 [6933 10739128][VERB] Node  TrojanProvider - 卢森堡LUX-T  has been added.
+2024/10/20 Sun 13:41:10.262022 [6933 10739128][VERB] Node  TrojanProvider - 朝鲜KP-T  has been added.
+2024/10/20 Sun 13:41:10.262043 [6933 10739128][VERB] Node  TrojanProvider - 意大利IT-T  has been added.
+2024/10/20 Sun 13:41:10.262065 [6933 10739128][VERB] Node  TrojanProvider - 葡萄牙PT-T  has been added.
+2024/10/20 Sun 13:41:10.262090 [6933 10739128][VERB] Node  TrojanProvider - 俄罗斯RU-T  has been added.
+2024/10/20 Sun 13:41:10.262112 [6933 10739128][VERB] Node  TrojanProvider - 哈萨克斯坦KZ-T  has been added.
+2024/10/20 Sun 13:41:10.262133 [6933 10739128][VERB] Node  TrojanProvider - 乌克兰UA-T  has been added.
+2024/10/20 Sun 13:41:10.262155 [6933 10739128][VERB] Node  TrojanProvider - 以色列IL-T  has been added.
+2024/10/20 Sun 13:41:10.262177 [6933 10739128][VERB] Node  TrojanProvider - 英国UK-T  has been added.
+2024/10/20 Sun 13:41:10.262199 [6933 10739128][VERB] Node  TrojanProvider - 阿根廷AR-T  has been added.
+2024/10/20 Sun 13:41:10.262221 [6933 10739128][VERB] Node  TrojanProvider - 尼日利亚NI-T  has been added.
+2024/10/20 Sun 13:41:10.262238 [6933 10739128][VERB] Filter done.
+2024/10/20 Sun 13:41:10.262827 [6933 10739128][INFO] Generate target: Clash
+2024/10/20 Sun 13:41:10.281836 [6933 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/20 Sun 13:41:10.283104 [6933 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/20 Sun 13:41:10.290666 [6933 10739128][INFO] Generate completed.
+2024/10/20 Sun 13:41:10.291332 [6933 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/20 Sun 13:41:10.291360 [6933 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/20 Sun 13:41:10.291378 [6933 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/20 Sun 13:41:10.291422 [6933 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/20 Sun 13:41:10.291451 [6933 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/20 Sun 13:41:10.291553 [6933 10739128][VERB] Imported 0 item(s).
+2024/10/20 Sun 13:41:10.291595 [6933 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/20 Sun 13:41:10.292931 [6933 10739128][VERB] Received Link.
+2024/10/20 Sun 13:41:10.293036 [6933 10739128][INFO] Generate target: Clash
+2024/10/20 Sun 13:41:10.308423 [6933 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/20 Sun 13:41:10.309689 [6933 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/20 Sun 13:41:10.312029 [6933 10739128][INFO] Generate completed.
+2024/10/20 Sun 13:41:10.312575 [6933 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/20 Sun 13:41:10.312611 [6933 10739128][INFO] All artifact generated. Exiting...
+2024/10/20 Sun 13:42:12.535196 [7468 10739128][INFO] SubConverter v0.7.2 starting up..
+]0;SubConverter v0.7.22024/10/20 Sun 13:42:12.536128 [7468 10739128][INFO] Reading preference settings...
+2024/10/20 Sun 13:42:12.555869 [7468 10739128][INFO] Updating ruleset url 'rules/LocalAreaNetwork.list' with group '🎯 全球直连'.
+2024/10/20 Sun 13:42:12.556149 [7468 10739128][INFO] Updating ruleset url 'rules/MSServices.list' with group 'Ⓜ️ 微软服务'.
+2024/10/20 Sun 13:42:12.556519 [7468 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Unbreak.list' with group '🎯 全球直连'.
+2024/10/20 Sun 13:42:12.556880 [7468 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/AdRule.list' with group '🛑 全球拦截'.
+2024/10/20 Sun 13:42:12.557307 [7468 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list' with group '🛑 全球拦截'.
+2024/10/20 Sun 13:42:12.557375 [7468 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Video/Netflix.list' with group '🎥 NETFLIX'.
+2024/10/20 Sun 13:42:12.557678 [7468 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/StreamingMedia/Streaming.list' with group '🌍 国外媒体'.
+2024/10/20 Sun 13:42:12.558006 [7468 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Bilibili.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:42:12.558257 [7468 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/iQiyi.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:42:12.558516 [7468 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Letv.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:42:12.558828 [7468 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/MOO.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:42:12.559043 [7468 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Tencent Video.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:42:12.559264 [7468 10739128][INFO] Updating ruleset url 'rules/lhie1/Surge/Surge 3/Provider/Media/Youku.list' with group '🌏 国内媒体'.
+2024/10/20 Sun 13:42:12.559585 [7468 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list' with group '📲 电报信息'.
+2024/10/20 Sun 13:42:12.559637 [7468 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Global.list' with group '🔰 节点选择'.
+2024/10/20 Sun 13:42:12.559872 [7468 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/Extra/Apple/Apple.list' with group '🍎 苹果服务'.
+2024/10/20 Sun 13:42:12.560061 [7468 10739128][INFO] Updating ruleset url 'rules/DivineEngine/Surge/Ruleset/China.list' with group '🎯 全球直连'.
+2024/10/20 Sun 13:42:12.560336 [7468 10739128][INFO] Updating ruleset url 'rules/NobyDa/Surge/Download.list' with group '🎯 全球直连'.
+2024/10/20 Sun 13:42:12.560548 [7468 10739128][INFO] Adding rule 'GEOIP,CN,🎯 全球直连'.
+2024/10/20 Sun 13:42:12.560593 [7468 10739128][INFO] Adding rule 'FINAL,🐟 漏网之鱼'.
+2024/10/20 Sun 13:42:12.560653 [7468 10739128][INFO] Reading generator configuration...
+2024/10/20 Sun 13:42:12.560709 [7468 10739128][INFO] Read generator configuration completed.
+
+2024/10/20 Sun 13:42:12.560730 [7468 10739128][INFO] Generating all artifacts...
+2024/10/20 Sun 13:42:12.560747 [7468 10739128][INFO] Generating artifact 'test'...
+2024/10/20 Sun 13:42:12.560819 [7468 10739128][VERB] Imported 0 item(s).
+2024/10/20 Sun 13:42:12.560887 [7468 10739128][INFO] Fetching node data from url '../../temp/clash.yaml'.
+2024/10/20 Sun 13:42:12.562412 [7468 10739128][VERB] Received Link.
+2024/10/20 Sun 13:42:12.562450 [7468 10739128][VERB] Parsing configuration file data...
+2024/10/20 Sun 13:42:12.563757 [7468 10739128][VERB] Node  SSProvider - 剩余流量：120.17 GB  has been ignored and will not be added.
+2024/10/20 Sun 13:42:12.563797 [7468 10739128][VERB] Node  SSProvider - 距离下次重置剩余：29 天  has been added.
+2024/10/20 Sun 13:42:12.563821 [7468 10739128][VERB] Node  SSProvider - 套餐到期：2024-11-18  has been ignored and will not be added.
+2024/10/20 Sun 13:42:12.563847 [7468 10739128][VERB] Node  SSProvider - 定期更新订阅|官网 https://panel.selom.xyz/  has been ignored and will not be added.
+2024/10/20 Sun 13:42:12.563872 [7468 10739128][VERB] Node  TrojanProvider - 香港DC 01 CM/CU 0.5x  has been added.
+2024/10/20 Sun 13:42:12.563897 [7468 10739128][VERB] Node  TrojanProvider - 香港 DC 02 CM/CU 0.5x  has been added.
+2024/10/20 Sun 13:42:12.563919 [7468 10739128][VERB] Node  SSProvider - 香港低倍率 0.6x  has been added.
+2024/10/20 Sun 13:42:12.563941 [7468 10739128][VERB] Node  SSProvider - 新加坡低倍率 0.6x  has been added.
+2024/10/20 Sun 13:42:12.563963 [7468 10739128][VERB] Node  SSProvider - 日本低倍率 0.6x  has been added.
+2024/10/20 Sun 13:42:12.563985 [7468 10739128][VERB] Node  SSProvider - 美国低倍率 0.6x  has been added.
+2024/10/20 Sun 13:42:12.564007 [7468 10739128][VERB] Node  SSProvider - 香港01  has been added.
+2024/10/20 Sun 13:42:12.564028 [7468 10739128][VERB] Node  SSProvider - 香港02  has been added.
+2024/10/20 Sun 13:42:12.564051 [7468 10739128][VERB] Node  SSProvider - 香港03  has been added.
+2024/10/20 Sun 13:42:12.564079 [7468 10739128][VERB] Node  SSProvider - 香港04  has been added.
+2024/10/20 Sun 13:42:12.564101 [7468 10739128][VERB] Node  SSProvider - 香港05  has been added.
+2024/10/20 Sun 13:42:12.564122 [7468 10739128][VERB] Node  SSProvider - 香港06  has been added.
+2024/10/20 Sun 13:42:12.564144 [7468 10739128][VERB] Node  SSProvider - 台湾01  has been added.
+2024/10/20 Sun 13:42:12.564165 [7468 10739128][VERB] Node  SSProvider - 台湾02  has been added.
+2024/10/20 Sun 13:42:12.564188 [7468 10739128][VERB] Node  SSProvider - 日本01  has been added.
+2024/10/20 Sun 13:42:12.564209 [7468 10739128][VERB] Node  SSProvider - 日本02  has been added.
+2024/10/20 Sun 13:42:12.564230 [7468 10739128][VERB] Node  SSProvider - 日本03  has been added.
+2024/10/20 Sun 13:42:12.564252 [7468 10739128][VERB] Node  SSProvider - 日本04  has been added.
+2024/10/20 Sun 13:42:12.564279 [7468 10739128][VERB] Node  SSProvider - 新加坡01  has been added.
+2024/10/20 Sun 13:42:12.564302 [7468 10739128][VERB] Node  SSProvider - 新加坡02  has been added.
+2024/10/20 Sun 13:42:12.564325 [7468 10739128][VERB] Node  SSProvider - 新加坡03  has been added.
+2024/10/20 Sun 13:42:12.564347 [7468 10739128][VERB] Node  SSProvider - 新加坡04  has been added.
+2024/10/20 Sun 13:42:12.564368 [7468 10739128][VERB] Node  SSProvider - 美国01  has been added.
+2024/10/20 Sun 13:42:12.564390 [7468 10739128][VERB] Node  SSProvider - 美国02  has been added.
+2024/10/20 Sun 13:42:12.564411 [7468 10739128][VERB] Node  SSProvider - 美国03  has been added.
+2024/10/20 Sun 13:42:12.564432 [7468 10739128][VERB] Node  SSProvider - 防失联节点 01  has been added.
+2024/10/20 Sun 13:42:12.564454 [7468 10739128][VERB] Node  SSProvider - 防失联节点 02  has been added.
+2024/10/20 Sun 13:42:12.564471 [7468 10739128][VERB] Filter done.
+2024/10/20 Sun 13:42:12.564914 [7468 10739128][INFO] Generate target: Clash
+2024/10/20 Sun 13:42:12.581994 [7468 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/20 Sun 13:42:12.583263 [7468 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/20 Sun 13:42:12.588143 [7468 10739128][INFO] Generate completed.
+2024/10/20 Sun 13:42:12.588712 [7468 10739128][INFO] User Info for artifact 'test': Stream Used: 1.00  B Stream Total: N/A Expiry Time: N/A
+2024/10/20 Sun 13:42:12.588743 [7468 10739128][INFO] Artifact 'test' generate SUCCESS!
+
+2024/10/20 Sun 13:42:12.588763 [7468 10739128][INFO] Generating artifact 'test_profile'...
+2024/10/20 Sun 13:42:12.588810 [7468 10739128][INFO] Trying to load profile 'profiles/example_profile.ini'.
+2024/10/20 Sun 13:42:12.588839 [7468 10739128][INFO] Trying to parse profile 'profiles/example_profile.ini'.
+2024/10/20 Sun 13:42:12.588938 [7468 10739128][VERB] Imported 0 item(s).
+2024/10/20 Sun 13:42:12.588978 [7468 10739128][INFO] Fetching node data from url 'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYXNzd29yZA@www.example.com:1080#Example'.
+2024/10/20 Sun 13:42:12.590353 [7468 10739128][VERB] Received Link.
+2024/10/20 Sun 13:42:12.590449 [7468 10739128][INFO] Generate target: Clash
+2024/10/20 Sun 13:42:12.605983 [7468 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Guard/Hijacking.list'!
+2024/10/20 Sun 13:42:12.607254 [7468 10739128][WARN] Failed to fetch ruleset or ruleset is empty: 'rules/DivineEngine/Surge/Ruleset/Extra/Telegram/Telegram.list'!
+2024/10/20 Sun 13:42:12.609611 [7468 10739128][INFO] Generate completed.
+2024/10/20 Sun 13:42:12.610166 [7468 10739128][INFO] Artifact 'test_profile' generate SUCCESS!
+
+2024/10/20 Sun 13:42:12.610199 [7468 10739128][INFO] All artifact generated. Exiting...
